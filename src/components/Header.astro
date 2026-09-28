@@ -5,7 +5,8 @@ import { menuTree, QUOTE_URL } from '../lib/site.js';
 
 const { current = '/' } = Astro.props;
 const tree = menuTree('Menu principal');
-const items = tree.filter((i) => i.url !== QUOTE_URL);
+// "Início" não está na aba Menu da planilha; entra aqui para sobreviver a um novo extract.
+const items = [{ label: 'Início', url: '/', children: [] }, ...tree.filter((i) => i.url !== QUOTE_URL)];
 const quoteLabel = tree.find((i) => i.url === QUOTE_URL)?.label.replace(/^Botão:\s*/, '') ?? 'Solicitar orçamento';
 const section = '/' + current.split('/').filter(Boolean)[0] + '/';
 const isActive = (item) =>
@@ -62,6 +63,6 @@ const isActive = (item) =>
         })}
       </ul>
     </nav>
-    <a class="header-cta" href={QUOTE_URL}><span class="cta-long">{quoteLabel}</span><span class="cta-short">Orçamento</span></a>
+    <a class="header-cta" href={QUOTE_URL}><span class="cta-long">{quoteLabel}</span><span class="cta-short">Solicitar orçamento</span></a>
   </div>
 </header>

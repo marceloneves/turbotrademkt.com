@@ -8,6 +8,13 @@ import content from '../data/content.json' with { type: 'json' };
 export const SITE_NAME = 'Turbo Trade Marketing';
 export const QUOTE_URL = '/solicitar-orcamento/';
 
+// WhatsApp comercial: só dígitos, com DDI e DDD (ex.: 5511999999999).
+// Enquanto estiver vazio, o botão flutuante leva para a página de orçamento.
+export const WHATSAPP_NUMBER = '';
+export const WHATSAPP_MESSAGE = 'Olá! Vim pelo site e quero falar sobre trade marketing para a minha marca.';
+export const whatsappUrl = () =>
+  WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}` : QUOTE_URL;
+
 export { pages, articles, links, menu };
 
 // Artigos entram no mesmo formato das páginas do mapa, filhos de /blog/.

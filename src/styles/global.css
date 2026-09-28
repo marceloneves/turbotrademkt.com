@@ -57,7 +57,7 @@ h3 { font-size: 1.35rem; margin: 0 0 10px; }
 .main-nav { flex: 1; display: flex; justify-content: flex-end; padding-right: 28px; }
 .main-nav > ul { display: flex; align-items: stretch; list-style: none; margin: 0; padding: 0; }
 .nav-item { position: relative; display: flex; align-items: center; gap: 4px; padding: 0 14px; color: var(--white); }
-.nav-item > a, .nav-item > span { font-family: var(--head); font-weight: 600; font-size: 1.05rem; color: var(--white); cursor: pointer; }
+.nav-item > a, .nav-item > span { font-family: var(--head); font-weight: 600; font-size: 1.05rem; color: var(--white); cursor: pointer; white-space: nowrap; }
 .nav-item > .icon { color: var(--orange); }
 .nav-item:hover > a, .nav-item:hover > span, .nav-item.active > a, .nav-item.active > span { color: var(--orange); }
 .dropdown { display: none; position: absolute; top: 100%; left: 0; background: var(--white); border-radius: 0 0 var(--radius) var(--radius); box-shadow: 0 24px 48px rgb(14 42 59 / .16); padding: 28px; z-index: 60; border-top: 3px solid var(--orange); }
@@ -187,6 +187,15 @@ details.pending-box summary { cursor: pointer; font-weight: 600; }
 .pending-box dd { margin: 0; }
 
 /* Responsivo */
+@media (max-width: 1400px) and (min-width: 1181px) {
+  .logo { font-size: 1.35rem; }
+  .main-nav { padding-right: 16px; }
+  .nav-item { padding: 0 9px; }
+  .nav-item > a, .nav-item > span { font-size: .98rem; }
+  .header-cta { max-width: 200px; padding: 0 22px; font-size: .95rem; }
+  .header-cta .cta-long { display: none; }
+  .header-cta .cta-short { display: inline; }
+}
 @media (max-width: 1180px) {
   .topbar p { display: none; }
   .topbar-inner { justify-content: flex-end; }
@@ -215,12 +224,14 @@ details.pending-box summary { cursor: pointer; font-weight: 600; }
   body { font-size: 15px; }
   .container { padding: 0 16px; }
   .topbar { display: none; }
-  .logo { font-size: 1.25rem; }
-  .logo svg { width: 32px; height: 32px; }
-  .header-cta { padding: 0 16px; font-size: .9rem; }
+  .header-inner { padding-left: 16px; }
+  .logo { font-size: 1rem; gap: 8px; letter-spacing: 0; }
+  .logo svg { width: 28px; height: 28px; }
+  .header-cta { padding: 0 14px; font-size: .85rem; }
   .cta-long { display: none; }
-  .cta-short { display: inline; }
-  .nav-toggle-label { padding: 0 16px; }
+  .cta-short { display: inline; font-size: 0; }
+  .cta-short::after { content: 'Orçamento'; font-size: .85rem; }
+  .nav-toggle-label { padding: 0 14px; }
   .grid-4x2, .grid-4, .card-grid, .footer-grid { grid-template-columns: 1fr; }
   .card { border-right: 0 !important; }
   .page-hero > .container { padding-top: 70px; padding-bottom: 60px; }
@@ -257,4 +268,25 @@ details.pending-box summary { cursor: pointer; font-weight: 600; }
 }
 @media (max-width: 640px) {
   .card-grid-4 { grid-template-columns: 1fr; }
+}
+
+/* WhatsApp flutuante */
+.whatsapp-float { position: fixed; right: 24px; bottom: 24px; z-index: 90; display: flex; align-items: center; gap: 12px; }
+.whatsapp-icon { position: relative; display: grid; place-items: center; width: 62px; height: 62px; border-radius: 50%; background: #25d366; box-shadow: 0 10px 24px rgb(0 0 0 / .22); transition: transform .2s; }
+.whatsapp-icon::before, .whatsapp-icon::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: #25d366; z-index: -1; animation: whatsapp-pulse 2s ease-out infinite; }
+.whatsapp-icon::after { animation-delay: 1s; }
+.whatsapp-label { background: var(--white); color: var(--navy); font-family: var(--head); font-weight: 600; font-size: .95rem; padding: 10px 16px; border-radius: 999px; box-shadow: 0 8px 20px rgb(0 0 0 / .15); opacity: 0; transform: translateX(8px); transition: opacity .2s, transform .2s; pointer-events: none; white-space: nowrap; }
+.whatsapp-float:hover .whatsapp-icon { transform: scale(1.07); }
+.whatsapp-float:hover .whatsapp-label, .whatsapp-float:focus-visible .whatsapp-label { opacity: 1; transform: none; }
+@keyframes whatsapp-pulse {
+  0% { transform: scale(1); opacity: .55; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-icon::before, .whatsapp-icon::after { animation: none; }
+}
+@media (max-width: 640px) {
+  .whatsapp-float { right: 16px; bottom: 16px; }
+  .whatsapp-icon { width: 56px; height: 56px; }
+  .whatsapp-label { display: none; }
 }
