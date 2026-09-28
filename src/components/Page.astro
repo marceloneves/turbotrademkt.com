@@ -1,0 +1,88 @@
+---
+import Breadcrumb from './Breadcrumb.astro';
+import Text from './Text.astro';
+import { getPage, getContent, children, outgoingLinks, isNoindex, QUOTE_URL } from '../lib/site.js';
+
+const { page } = Astro.props;
+const content = getContent(page.url);
+const parent = page.url !== '/' && page.parent !== page.url ? getPage(page.parent) : null;
+const subpages = children(page.url);
+const related = outgoingLinks(page.url).filter((l) => l.to !== page.parent || page.url === '/');
+const isArticle = page.type === 'Artigo';
+const ctaUrl = isArticle ? page.target : QUOTE_URL;
+const cta = isArticle ? `Conheça: ${getPage(page.target)?.name}` : page.cta || 'Solicitar orçamento de trade marketing';
+---
+{page.url !== '/' && <Breadcrumb url={page.url} />}
+
+<article class="page">
+  <p class="eyebrow">{page.type}</p>
+  <h1>{page.name}</h1>
+
+  {content?.intro.map((p) => <p class="lead"><Text text={p} /></p>)}
+
+  {page.url !== QUOTE_URL && <p><a class="btn" href={ctaUrl}>{cta}</a></p>}
+
+  {content?.sections.map((s) => (
+    <section>
+      <h2>{s.h2}</h2>
+      {s.paragraphs?.map((p) => <p><Text text={p} /></p>)}
+      {s.bullets?.length > 0 && <ul>{s.bullets.map((b) => <li><Text text={b} /></li>)}</ul>}
+    </section>
+  ))}
+
+  {subpages.length > 0 && (
+    <section>
+      <h2>Páginas desta seção</h2>
+      <ul class="card-list">
+        {subpages.map((s) => <li><a href={s.url}>{s.name}</a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {content?.faq?.length > 0 && (
+    <section class="faq">
+      <h2>Perguntas frequentes</h2>
+      {content.faq.map((f) => (
+        <details>
+          <summary>{f.q}</summary>
+          <p><Text text={f.a} /></p>
+        </details>
+      ))}
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section>
+      <h2>Veja também</h2>
+      <ul class="link-list">
+        {related.map((l) => <li><a href={l.to}>{l.anchor}</a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {page.url !== QUOTE_URL && (
+    <aside class="cta-box">
+      <p>{isArticle ? 'Quer aplicar isso nas suas lojas?' : 'Pronto para falar da sua operação?'}</p>
+      <a class="btn" href={QUOTE_URL}>{isArticle ? 'Solicitar orçamento de trade marketing' : cta}</a>
+    </aside>
+  )}
+
+  {parent && <p class="back"><a href={parent.url}>← {parent.name}</a></p>}
+
+  {import.meta.env.DEV && (
+    <details class="pending-box">
+      <summary>Dados do mapa de arquitetura (visível só em dev)</summary>
+      <dl>
+        <dt>ID</dt><dd>{page.id}</dd>
+        <dt>Palavra-chave</dt><dd>{page.keyword}</dd>
+        {page.variations.length > 0 && <><dt>Variações</dt><dd>{page.variations.join('; ')}</dd></>}
+        <dt>Intenção</dt><dd>{page.intent}{page.intentDetail && ` — ${page.intentDetail}`}</dd>
+        <dt>Etapa</dt><dd>{page.stage}</dd>
+        <dt>Persona</dt><dd>{page.persona}</dd>
+        <dt>Prioridade</dt><dd>{page.priority}</dd>
+        {isNoindex(page) && <><dt>Publicar só com</dt><dd>{page.condition} (noindex)</dd></>}
+        {!content && <><dt>Conteúdo</dt><dd>pendente</dd></>}
+      </dl>
+    </details>
+  )}
+</article>

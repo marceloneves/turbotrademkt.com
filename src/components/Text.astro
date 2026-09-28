@@ -1,0 +1,6 @@
+---
+// Texto simples com os marcadores [VALIDAR: ...] destacados.
+const { text } = Astro.props;
+const parts = text.split(/(\[VALIDAR[^\]]*\])/g);
+---
+{parts.map((p) => (p.startsWith('[VALIDAR') ? <mark class="validar">{p}</mark> : p))}

@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import PagePlaceholder from '../components/PagePlaceholder.astro';
+import Page from '../components/Page.astro';
 import { pages, getPage } from '../lib/site.js';
 
 export function getStaticPaths() {
@@ -12,5 +12,5 @@ export function getStaticPaths() {
 const page = getPage(Astro.props.url);
 ---
 <Base page={page}>
-  <PagePlaceholder page={page} />
+  <Page page={page} />
 </Base>

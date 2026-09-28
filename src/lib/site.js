@@ -3,6 +3,7 @@ import pages from '../data/pages.json' with { type: 'json' };
 import articles from '../data/articles.json' with { type: 'json' };
 import links from '../data/links.json' with { type: 'json' };
 import menu from '../data/menu.json' with { type: 'json' };
+import content from '../data/content.json' with { type: 'json' };
 
 export const SITE_NAME = 'Turbo Trade Marketing';
 export const QUOTE_URL = '/solicitar-orcamento/';
@@ -35,6 +36,15 @@ export const allPages = [...pages, ...articlePages];
 const byUrl = new Map(allPages.map((p) => [p.url, p]));
 
 export const getPage = (url) => byUrl.get(url);
+
+export const getContent = (url) => content[url] ?? null;
+
+// Primeira frase útil do conteúdo, sem marcadores, cortada para meta description.
+export function describe(page) {
+  const intro = getContent(page.url)?.intro?.[0];
+  const text = (intro || page.intentDetail || `${page.name}: ${page.keyword}.`).replace(/\s*\[VALIDAR[^\]]*\]/g, '');
+  return text.length <= 158 ? text : text.slice(0, 155).replace(/\s+\S*$/, '') + '...';
+}
 
 // Páginas com condição para publicar ficam fora do índice até terem informação real.
 export const isNoindex = (p) => p.condition && p.condition !== 'Nenhuma';
