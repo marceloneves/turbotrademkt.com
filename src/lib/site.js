@@ -93,3 +93,24 @@ export function menuTree(area) {
   }
   return tree;
 }
+
+// A aba Menu traz só os destaques de cada coluna. Aqui cada coluna (nível 2) passa a
+// listar todas as páginas filhas, na ordem do mapa, mantendo os rótulos da planilha e o
+// link "Ver todos" no fim. Artigos ficam no blog, não no menu.
+export function fullMenuTree(area) {
+  const tree = menuTree(area);
+  for (const item of tree) {
+    for (const col of item.children) {
+      if (!col.url) continue;
+      const pagesIn = children(col.url).filter((p) => p.type !== 'Artigo');
+      if (!pagesIn.length) continue;
+      const labels = new Map(col.children.map((c) => [c.url, c.label]));
+      const seeAll = col.children.filter((c) => c.url === col.url);
+      col.children = [
+        ...pagesIn.map((p) => ({ label: labels.get(p.url) ?? p.name, url: p.url, children: [] })),
+        ...seeAll,
+      ];
+    }
+  }
+  return tree;
+}

@@ -66,6 +66,8 @@ h3 { font-size: 1.35rem; margin: 0 0 10px; }
 .has-mega > .dropdown { left: 24px; right: 24px; }
 .mega { display: grid; gap: 28px 32px; }
 .grid-4x2, .grid-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-5 { grid-template-columns: repeat(5, 1fr); }
+.has-mega > .dropdown { max-height: calc(100vh - 150px); overflow-y: auto; }
 .mega-title { display: block; font-family: var(--head); font-weight: 600; font-size: 1.1rem; color: var(--navy); margin-bottom: 8px; line-height: 1.25; }
 .mega ul, .simple { list-style: none; margin: 0; padding: 0; }
 .mega li a, .simple li a { display: flex; align-items: center; gap: 8px; padding: 4px 0; font-family: var(--head); font-weight: 500; font-size: .95rem; line-height: 1.35; color: var(--text); }
@@ -210,7 +212,8 @@ details.pending-box summary { cursor: pointer; font-weight: 600; }
   .nav-item > a, .nav-item > span { padding: 12px 0; }
   .nav-item > .icon { display: none; }
   .dropdown, .has-mega > .dropdown { position: static; display: block; flex-basis: 100%; box-shadow: none; border: 0; border-radius: var(--radius); padding: 20px; margin-bottom: 8px; }
-  .grid-4x2, .grid-4 { grid-template-columns: 1fr 1fr; }
+  .grid-4x2, .grid-4, .grid-5 { grid-template-columns: 1fr 1fr; }
+  .has-mega > .dropdown { max-height: none; overflow: visible; }
   .body-grid { grid-template-columns: 1fr; }
   .sidebar { position: static; }
   .card-grid { grid-template-columns: 1fr 1fr; }
@@ -232,7 +235,7 @@ details.pending-box summary { cursor: pointer; font-weight: 600; }
   .cta-short { display: inline; font-size: 0; }
   .cta-short::after { content: 'Orçamento'; font-size: .85rem; }
   .nav-toggle-label { padding: 0 14px; }
-  .grid-4x2, .grid-4, .card-grid, .footer-grid { grid-template-columns: 1fr; }
+  .grid-4x2, .grid-4, .grid-5, .card-grid, .footer-grid { grid-template-columns: 1fr; }
   .card { border-right: 0 !important; }
   .page-hero > .container { padding-top: 70px; padding-bottom: 60px; }
   .page-body, .faq-band, .cta-band { padding: 64px 0; }

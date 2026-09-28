@@ -1,10 +1,10 @@
 ---
 import Logo from './Logo.astro';
 import Icon from './Icon.astro';
-import { menuTree, QUOTE_URL } from '../lib/site.js';
+import { fullMenuTree, QUOTE_URL } from '../lib/site.js';
 
 const { current = '/' } = Astro.props;
-const tree = menuTree('Menu principal');
+const tree = fullMenuTree('Menu principal');
 // "Início" não está na aba Menu da planilha; entra aqui para sobreviver a um novo extract.
 const items = [{ label: 'Início', url: '/', children: [] }, ...tree.filter((i) => i.url !== QUOTE_URL)];
 const quoteLabel = tree.find((i) => i.url === QUOTE_URL)?.label.replace(/^Botão:\s*/, '') ?? 'Solicitar orçamento';
@@ -39,7 +39,7 @@ const isActive = (item) =>
               {item.children.length > 0 && (
                 <div class="dropdown">
                   {mega ? (
-                    <div class:list={['mega', item.children.length === 8 ? 'grid-4x2' : 'grid-4']}>
+                    <div class:list={['mega', item.children.length === 8 ? 'grid-4x2' : item.children.length === 5 ? 'grid-5' : 'grid-4']}>
                       {item.children.map((col) => (
                         <div class="mega-col">
                           <a class="mega-title" href={col.url}>{col.label}</a>
