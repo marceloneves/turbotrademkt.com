@@ -1,20 +1,36 @@
 ---
-import { menuTree } from '../lib/site.js';
+import Logo from './Logo.astro';
+import Icon from './Icon.astro';
+import { menuTree, QUOTE_URL } from '../lib/site.js';
 
 const columns = menuTree('Rodapé');
 ---
 <footer class="site-footer">
   <div class="container footer-grid">
+    <div class="footer-brand">
+      <Logo variant="dark" />
+      <p>Execução no PDV em todo o Brasil, com dados para decidir. Atendemos indústrias e marcas que vendem no varejo.</p>
+      <a class="btn btn-navy" href={QUOTE_URL}>Solicitar orçamento <Icon name="arrow" /></a>
+    </div>
     {columns.map((col) => (
       <div>
         <p class="footer-title">{col.label}</p>
         <ul>
           {col.children.map((l) =>
-            l.url ? <li><a href={l.url}>{l.label}</a></li> : <li class="pending">{l.label} [pendente]</li>
+            l.url
+              ? <li><a href={l.url}><Icon name="chevron" size={12} />{l.label}</a></li>
+              : <li class="pending"><mark class="validar">[VALIDAR: {l.label}]</mark></li>
           )}
         </ul>
       </div>
     ))}
   </div>
-  <div class="container footer-bottom">© {new Date().getFullYear()} Turbo Trade Marketing</div>
+  <div class="container footer-bottom">
+    <p>© {new Date().getFullYear()} Turbo Trade Marketing. Todos os direitos reservados.</p>
+    <ul>
+      <li><a href="/politica-de-privacidade/">Política de privacidade</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="/solicitar-orcamento/">Contato</a></li>
+    </ul>
+  </div>
 </footer>

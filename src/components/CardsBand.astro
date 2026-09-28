@@ -1,0 +1,26 @@
+---
+import Icon from './Icon.astro';
+import { summary } from '../lib/site.js';
+
+const { eyebrow, title, pages, pills = [] } = Astro.props;
+---
+<section class="cards-band">
+  <div class="container">
+    <p class="eyebrow">{eyebrow}</p>
+    <h2>{title}</h2>
+    <ul class:list={["card-grid", { "card-grid-4": pages.length % 4 === 0 && pages.length % 3 !== 0 }]}>
+      {pages.map((s, i) => (
+        <li class="card">
+          <h3><a href={s.url}>{s.name}</a></h3>
+          {summary(s.url) && <p>{summary(s.url)}</p>}
+          <a class:list={['btn', 'btn-sm', { 'btn-navy': i % 2 === 1 }]} href={s.url}>Saiba mais <Icon name="arrow" /></a>
+        </li>
+      ))}
+    </ul>
+    {pills.length > 0 && (
+      <ul class="pill-list">
+        {pills.map((s) => <li><a href={s.url}>{s.name} <Icon name="chevron" size={12} /></a></li>)}
+      </ul>
+    )}
+  </div>
+</section>

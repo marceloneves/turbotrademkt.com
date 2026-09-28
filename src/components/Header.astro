@@ -1,43 +1,67 @@
 ---
+import Logo from './Logo.astro';
+import Icon from './Icon.astro';
 import { menuTree, QUOTE_URL } from '../lib/site.js';
 
-const items = menuTree('Menu principal').filter((i) => i.url !== QUOTE_URL);
-const quote = menuTree('Menu principal').find((i) => i.url === QUOTE_URL);
+const { current = '/' } = Astro.props;
+const tree = menuTree('Menu principal');
+const items = tree.filter((i) => i.url !== QUOTE_URL);
+const quoteLabel = tree.find((i) => i.url === QUOTE_URL)?.label.replace(/^Botão:\s*/, '') ?? 'Solicitar orçamento';
+const section = '/' + current.split('/').filter(Boolean)[0] + '/';
+const isActive = (item) =>
+  item.url === current || item.url === section || item.children.some((c) => c.url === section || c.children.some((l) => l.url === section));
 ---
+<div class="topbar">
+  <div class="topbar-inner">
+    <p>Trade marketing para indústrias e marcas que vendem no varejo</p>
+    <ul>
+      <li><a href="/cases/">Cases</a></li>
+      <li><a href="/perguntas-frequentes/">Perguntas frequentes</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/vagas/">Vagas para promotores</a></li>
+    </ul>
+  </div>
+</div>
 <header class="site-header">
-  <div class="container header-inner">
-    <a class="logo" href="/">Turbo Trade Marketing</a>
+  <div class="header-inner">
+    <Logo />
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu" />
-    <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
+    <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true"><span></span><span></span><span></span></label>
     <nav class="main-nav" aria-label="Menu principal">
       <ul>
-        {items.map((item) => (
-          <li class:list={['nav-item', { 'has-mega': item.children.some((c) => c.children.length) }]}>
-            {item.url ? <a href={item.url}>{item.label}</a> : <span tabindex="0">{item.label}</span>}
-            {item.children.length > 0 && (
-              <div class="dropdown">
-                {item.children.some((c) => c.children.length) ? (
-                  <div class:list={['mega', item.children.length === 8 ? 'grid-4x2' : 'grid-4']}>
-                    {item.children.map((col) => (
-                      <div class="mega-col">
-                        <a class="mega-title" href={col.url}>{col.label}</a>
-                        <ul>
-                          {col.children.map((l) => <li><a href={l.url}>{l.label}</a></li>)}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <ul class="simple">
-                    {item.children.map((l) => <li><a href={l.url}>{l.label}</a></li>)}
-                  </ul>
-                )}
-              </div>
-            )}
-          </li>
-        ))}
+        {items.map((item) => {
+          const mega = item.children.some((c) => c.children.length);
+          return (
+            <li class:list={['nav-item', { 'has-mega': mega, active: isActive(item) }]}>
+              {item.url ? <a href={item.url}>{item.label}</a> : <span tabindex="0">{item.label}</span>}
+              {item.children.length > 0 && <Icon name="down" size={14} />}
+              {item.children.length > 0 && (
+                <div class="dropdown">
+                  {mega ? (
+                    <div class:list={['mega', item.children.length === 8 ? 'grid-4x2' : 'grid-4']}>
+                      {item.children.map((col) => (
+                        <div class="mega-col">
+                          <a class="mega-title" href={col.url}>{col.label}</a>
+                          <ul>
+                            {col.children.map((l) => (
+                              <li><a href={l.url}><Icon name="chevron" size={12} />{l.label}</a></li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <ul class="simple">
+                      {item.children.map((l) => <li><a href={l.url}><Icon name="chevron" size={12} />{l.label}</a></li>)}
+                    </ul>
+                  )}
+                </div>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </nav>
-    <a class="btn btn-quote" href={QUOTE_URL}>{quote?.label.replace(/^Botão:\s*/, '') ?? 'Solicitar orçamento'}</a>
+    <a class="header-cta" href={QUOTE_URL}><span class="cta-long">{quoteLabel}</span><span class="cta-short">Orçamento</span></a>
   </div>
 </header>

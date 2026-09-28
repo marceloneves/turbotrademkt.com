@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import { breadcrumb } from '../lib/site.js';
 
 const { url } = Astro.props;
@@ -17,7 +18,11 @@ const jsonld = {
 <nav class="breadcrumb" aria-label="Trilha de navegação">
   <ol>
     {trail.map((t, i) => (
-      <li>{i < trail.length - 1 ? <a href={t.url}>{t.name}</a> : <span aria-current="page">{t.name}</span>}</li>
+      <li>
+        {i > 0 && <Icon name="chevron" size={12} />}
+        {i === 0 && <Icon name="home" size={14} />}
+        {i < trail.length - 1 ? <a href={t.url}>{t.name}</a> : <span aria-current="page">{t.name}</span>}
+      </li>
     ))}
   </ol>
 </nav>

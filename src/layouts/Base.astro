@@ -25,11 +25,14 @@ const description = describe(page);
     <meta property="og:type" content={page.type === 'Artigo' ? 'article' : 'website'} />
     <meta property="og:locale" content="pt_BR" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
     <Schema page={page} />
   </head>
   <body>
-    <Header />
-    <main class="container">
+    <Header current={page.url} />
+    <main>
       <slot />
     </main>
     <Footer />

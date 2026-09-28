@@ -39,6 +39,14 @@ export const getPage = (url) => byUrl.get(url);
 
 export const getContent = (url) => content[url] ?? null;
 
+// Primeira frase da intro, sem marcadores (usada em cards).
+export function summary(url) {
+  const intro = getContent(url)?.intro?.[0];
+  if (!intro) return '';
+  const text = intro.replace(/\s*\[VALIDAR[^\]]*\]/g, '');
+  return text.match(/^.+?[.!?](\s|$)/)?.[0].trim() ?? text;
+}
+
 // Primeira frase útil do conteúdo, sem marcadores, cortada para meta description.
 export function describe(page) {
   const intro = getContent(page.url)?.intro?.[0];

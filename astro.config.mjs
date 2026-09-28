@@ -8,5 +8,6 @@ const excluded = new Set(noindexUrls().map((u) => SITE + u));
 export default defineConfig({
   site: SITE,
   trailingSlash: 'always',
+  devToolbar: { enabled: false },
   integrations: [sitemap({ filter: (page) => !excluded.has(page) })],
 });
