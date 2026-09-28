@@ -2,8 +2,9 @@
 :root {
   --navy: #0e2a3b;
   --navy-2: #13364b;
-  --orange: #ff6041;
-  --orange-dark: #e84f31;
+  --orange: #e2704f;
+  --orange-dark: #cc5f40;
+  --cream: #f0efe4;
   --ink: #1a1a1a;
   --text: #6f6f6f;
   --bg: #f8f8f8;
@@ -79,7 +80,7 @@ h3 { font-size: 1.35rem; margin: 0 0 10px; }
 .page-hero { position: relative; background-color: var(--navy); background-image:
     linear-gradient(180deg, rgb(14 42 59 / .75), rgb(14 42 59 / .96)),
     repeating-linear-gradient(135deg, transparent 0 38px, rgb(255 255 255 / .05) 38px 40px),
-    repeating-linear-gradient(45deg, transparent 0 38px, rgb(255 96 65 / .06) 38px 40px);
+    repeating-linear-gradient(45deg, transparent 0 38px, rgb(226 112 79 / .06) 38px 40px);
   color: var(--white); text-align: center; overflow: hidden; }
 .page-hero > .container { padding-top: 110px; padding-bottom: 100px; }
 .page-hero h1 { color: var(--white); font-weight: 700; font-size: clamp(2.2rem, 5vw, 4rem); line-height: 1.1; letter-spacing: -.9px; max-width: 980px; margin: 0 auto; }
@@ -138,10 +139,10 @@ mark.validar { background: var(--pending); border: 1px dashed var(--pending-line
 .pill-list { margin-top: 28px; }
 
 /* FAQ */
-.faq-band { background: var(--orange); color: var(--white); padding: 100px 0; }
+.faq-band { background: var(--cream); color: var(--text); padding: 100px 0; }
 .faq-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 64px; align-items: start; }
-.faq-intro h2 { color: var(--white); font-weight: 700; }
-.faq-intro p:last-child { color: rgb(255 255 255 / .92); }
+.faq-intro h2 { color: var(--navy); font-weight: 700; }
+.faq-intro p:last-child { color: var(--text); }
 .faq-list { display: grid; gap: 14px; }
 .faq-list details { background: var(--white); border-radius: var(--radius); overflow: hidden; }
 .faq-list summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 20px 18px 24px; font-family: var(--head); font-weight: 600; font-size: 1.1rem; line-height: 1.4; color: var(--ink); cursor: pointer; }
