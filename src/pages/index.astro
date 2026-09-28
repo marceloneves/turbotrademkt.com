@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import PagePlaceholder from '../components/PagePlaceholder.astro';
+import { getPage } from '../lib/site.js';
+
+const page = getPage('/');
+---
+<Base page={page}>
+  <PagePlaceholder page={page} />
+</Base>

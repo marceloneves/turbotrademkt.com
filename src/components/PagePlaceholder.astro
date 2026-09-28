@@ -1,0 +1,56 @@
+---
+import Breadcrumb from './Breadcrumb.astro';
+import { getPage, children, outgoingLinks, isNoindex, QUOTE_URL } from '../lib/site.js';
+
+const { page } = Astro.props;
+const parent = page.url !== '/' && page.parent !== page.url ? getPage(page.parent) : null;
+const subpages = children(page.url);
+const related = outgoingLinks(page.url).filter((l) => l.to !== page.parent || page.url === '/');
+const cta = page.cta || 'Solicitar orçamento de trade marketing';
+---
+{page.url !== '/' && <Breadcrumb url={page.url} />}
+
+<article class="page">
+  <p class="eyebrow">{page.type}</p>
+  <h1>{page.name}</h1>
+
+  <section class="pending-box" aria-label="Conteúdo pendente">
+    <p><strong>Conteúdo pendente.</strong> Estrutura criada a partir do mapa de arquitetura.</p>
+    <dl>
+      <dt>ID</dt><dd>{page.id}</dd>
+      <dt>Palavra-chave</dt><dd>{page.keyword}</dd>
+      {page.variations.length > 0 && <><dt>Variações</dt><dd>{page.variations.join('; ')}</dd></>}
+      <dt>Intenção</dt><dd>{page.intent}{page.intentDetail && ` — ${page.intentDetail}`}</dd>
+      <dt>Etapa</dt><dd>{page.stage}</dd>
+      <dt>Persona</dt><dd>{page.persona}</dd>
+      <dt>Prioridade</dt><dd>{page.priority}</dd>
+      {isNoindex(page) && <><dt>Publicar só com</dt><dd>{page.condition} (noindex)</dd></>}
+    </dl>
+  </section>
+
+  {page.url !== QUOTE_URL && (
+    <p><a class="btn" href={page.type === 'Artigo' ? page.target : QUOTE_URL}>{page.type === 'Artigo' ? 'Ver o serviço relacionado' : cta}</a></p>
+  )}
+
+  {subpages.length > 0 && (
+    <section>
+      <h2>Páginas desta seção</h2>
+      <ul class="card-list">
+        {subpages.map((s) => <li><a href={s.url}>{s.name}</a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section>
+      <h2>Links relacionados</h2>
+      <ul class="link-list">
+        {related.map((l) => <li><a href={l.to}>{l.anchor}</a> <small>{l.kind}</small></li>)}
+      </ul>
+    </section>
+  )}
+
+  {parent && (
+    <p class="back"><a href={parent.url}>← {parent.name}</a></p>
+  )}
+</article>

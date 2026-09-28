@@ -1,0 +1,43 @@
+---
+import { menuTree, QUOTE_URL } from '../lib/site.js';
+
+const items = menuTree('Menu principal').filter((i) => i.url !== QUOTE_URL);
+const quote = menuTree('Menu principal').find((i) => i.url === QUOTE_URL);
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="/">Turbo Trade Marketing</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
+    <nav class="main-nav" aria-label="Menu principal">
+      <ul>
+        {items.map((item) => (
+          <li class:list={['nav-item', { 'has-mega': item.children.some((c) => c.children.length) }]}>
+            {item.url ? <a href={item.url}>{item.label}</a> : <span tabindex="0">{item.label}</span>}
+            {item.children.length > 0 && (
+              <div class="dropdown">
+                {item.children.some((c) => c.children.length) ? (
+                  <div class:list={['mega', item.children.length === 8 ? 'grid-4x2' : 'grid-4']}>
+                    {item.children.map((col) => (
+                      <div class="mega-col">
+                        <a class="mega-title" href={col.url}>{col.label}</a>
+                        <ul>
+                          {col.children.map((l) => <li><a href={l.url}>{l.label}</a></li>)}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <ul class="simple">
+                    {item.children.map((l) => <li><a href={l.url}>{l.label}</a></li>)}
+                  </ul>
+                )}
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <a class="btn btn-quote" href={QUOTE_URL}>{quote?.label.replace(/^Botão:\s*/, '') ?? 'Solicitar orçamento'}</a>
+  </div>
+</header>

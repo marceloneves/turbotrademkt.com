@@ -1,0 +1,20 @@
+---
+import { menuTree } from '../lib/site.js';
+
+const columns = menuTree('Rodapé');
+---
+<footer class="site-footer">
+  <div class="container footer-grid">
+    {columns.map((col) => (
+      <div>
+        <p class="footer-title">{col.label}</p>
+        <ul>
+          {col.children.map((l) =>
+            l.url ? <li><a href={l.url}>{l.label}</a></li> : <li class="pending">{l.label} [pendente]</li>
+          )}
+        </ul>
+      </div>
+    ))}
+  </div>
+  <div class="container footer-bottom">© {new Date().getFullYear()} Turbo Trade Marketing</div>
+</footer>

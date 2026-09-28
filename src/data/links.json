@@ -1,0 +1,4778 @@
+[
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "promotor compartilhado",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "empresa de promotores de vendas",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Promotor exclusivo",
+    "to": "/promotores-de-vendas/promotor-exclusivo/",
+    "anchor": "promotor exclusivo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Força de vendas terceirizada",
+    "to": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "anchor": "força de vendas terceirizada",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotor compartilhado",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Promotor exclusivo",
+    "to": "/promotores-de-vendas/promotor-exclusivo/",
+    "anchor": "promotor exclusivo",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotor exclusivo",
+    "from": "/promotores-de-vendas/promotor-exclusivo/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "promotor de vendas terceirizado",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotor exclusivo",
+    "from": "/promotores-de-vendas/promotor-exclusivo/",
+    "toName": "Terceirização de promotores",
+    "to": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "anchor": "terceirização de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor exclusivo",
+    "from": "/promotores-de-vendas/promotor-exclusivo/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "promotor compartilhado",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor exclusivo",
+    "from": "/promotores-de-vendas/promotor-exclusivo/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotor exclusivo",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Terceirização de promotores",
+    "to": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "anchor": "terceirização de promotores",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "agência de promotores",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Promotor temporário",
+    "to": "/promotores-de-vendas/promotor-temporario/",
+    "anchor": "promotor temporário",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Promotor exclusivo",
+    "to": "/promotores-de-vendas/promotor-exclusivo/",
+    "anchor": "promotor exclusivo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de terceirização de promotores",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Promotor temporário",
+    "to": "/promotores-de-vendas/promotor-temporario/",
+    "anchor": "promotor temporário",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotor temporário",
+    "from": "/promotores-de-vendas/promotor-temporario/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "promotor de merchandising",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotor temporário",
+    "from": "/promotores-de-vendas/promotor-temporario/",
+    "toName": "Promotor técnico",
+    "to": "/promotores-de-vendas/promotor-tecnico/",
+    "anchor": "promotor técnico",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor temporário",
+    "from": "/promotores-de-vendas/promotor-temporario/",
+    "toName": "Terceirização de promotores",
+    "to": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "anchor": "terceirização de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor temporário",
+    "from": "/promotores-de-vendas/promotor-temporario/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotor temporário",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Promotor técnico",
+    "to": "/promotores-de-vendas/promotor-tecnico/",
+    "anchor": "promotor técnico",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotor técnico",
+    "from": "/promotores-de-vendas/promotor-tecnico/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "promotor fixo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotor técnico",
+    "from": "/promotores-de-vendas/promotor-tecnico/",
+    "toName": "Repositor terceirizado",
+    "to": "/promotores-de-vendas/repositor-terceirizado/",
+    "anchor": "repositor terceirizado",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor técnico",
+    "from": "/promotores-de-vendas/promotor-tecnico/",
+    "toName": "Promotor temporário",
+    "to": "/promotores-de-vendas/promotor-temporario/",
+    "anchor": "promotor temporário",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor técnico",
+    "from": "/promotores-de-vendas/promotor-tecnico/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotor técnico",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Repositor terceirizado",
+    "to": "/promotores-de-vendas/repositor-terceirizado/",
+    "anchor": "repositor terceirizado",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Repositor terceirizado",
+    "from": "/promotores-de-vendas/repositor-terceirizado/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "promotor roteirista",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Repositor terceirizado",
+    "from": "/promotores-de-vendas/repositor-terceirizado/",
+    "toName": "Promotora de beleza",
+    "to": "/promotores-de-vendas/promotora-de-beleza/",
+    "anchor": "promotora de beleza",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Repositor terceirizado",
+    "from": "/promotores-de-vendas/repositor-terceirizado/",
+    "toName": "Promotor técnico",
+    "to": "/promotores-de-vendas/promotor-tecnico/",
+    "anchor": "promotor técnico",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Repositor terceirizado",
+    "from": "/promotores-de-vendas/repositor-terceirizado/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de repositor terceirizado",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Promotora de beleza",
+    "to": "/promotores-de-vendas/promotora-de-beleza/",
+    "anchor": "promotora de beleza",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotora de beleza",
+    "from": "/promotores-de-vendas/promotora-de-beleza/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "empresa de promotores de vendas",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotora de beleza",
+    "from": "/promotores-de-vendas/promotora-de-beleza/",
+    "toName": "Supervisão de promotores",
+    "to": "/promotores-de-vendas/supervisao-de-promotores/",
+    "anchor": "supervisão de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotora de beleza",
+    "from": "/promotores-de-vendas/promotora-de-beleza/",
+    "toName": "Repositor terceirizado",
+    "to": "/promotores-de-vendas/repositor-terceirizado/",
+    "anchor": "repositor terceirizado",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotora de beleza",
+    "from": "/promotores-de-vendas/promotora-de-beleza/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotora de beleza",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Supervisão de promotores",
+    "to": "/promotores-de-vendas/supervisao-de-promotores/",
+    "anchor": "supervisão de promotores",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Supervisão de promotores",
+    "from": "/promotores-de-vendas/supervisao-de-promotores/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "promotor de vendas terceirizado",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Supervisão de promotores",
+    "from": "/promotores-de-vendas/supervisao-de-promotores/",
+    "toName": "Força de vendas terceirizada",
+    "to": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "anchor": "força de vendas terceirizada",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Supervisão de promotores",
+    "from": "/promotores-de-vendas/supervisao-de-promotores/",
+    "toName": "Promotora de beleza",
+    "to": "/promotores-de-vendas/promotora-de-beleza/",
+    "anchor": "promotora de beleza",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Supervisão de promotores",
+    "from": "/promotores-de-vendas/supervisao-de-promotores/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de supervisão de promotores",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Promotores de vendas",
+    "from": "/promotores-de-vendas/",
+    "toName": "Força de vendas terceirizada",
+    "to": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "anchor": "força de vendas terceirizada",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Força de vendas terceirizada",
+    "from": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "agência de promotores",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Força de vendas terceirizada",
+    "from": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "promotor compartilhado",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Força de vendas terceirizada",
+    "from": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "toName": "Supervisão de promotores",
+    "to": "/promotores-de-vendas/supervisao-de-promotores/",
+    "anchor": "supervisão de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Força de vendas terceirizada",
+    "from": "/promotores-de-vendas/forca-de-vendas-terceirizada/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de força de vendas terceirizada",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "promotores de vendas",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Execução de planograma",
+    "to": "/merchandising-no-pdv/execucao-de-planograma/",
+    "anchor": "execução de planograma",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Execução de planograma",
+    "from": "/merchandising-no-pdv/execucao-de-planograma/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "empresa de merchandising",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Execução de planograma",
+    "from": "/merchandising-no-pdv/execucao-de-planograma/",
+    "toName": "Reposição de produtos",
+    "to": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "anchor": "reposição de produtos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Execução de planograma",
+    "from": "/merchandising-no-pdv/execucao-de-planograma/",
+    "toName": "Gestão de geladeiras em comodato",
+    "to": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "anchor": "gestão de geladeiras em comodato",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Execução de planograma",
+    "from": "/merchandising-no-pdv/execucao-de-planograma/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de execução de planograma",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Reposição de produtos",
+    "to": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "anchor": "reposição de produtos",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Reposição de produtos",
+    "from": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "merchandising no ponto de venda",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Reposição de produtos",
+    "from": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "montagem de pontos extras",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Reposição de produtos",
+    "from": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "toName": "Execução de planograma",
+    "to": "/merchandising-no-pdv/execucao-de-planograma/",
+    "anchor": "execução de planograma",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Reposição de produtos",
+    "from": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de reposição de produtos",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "montagem de pontos extras",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Montagem de pontos extras",
+    "from": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "agência de merchandising",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Montagem de pontos extras",
+    "from": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "toName": "Controle de validade",
+    "to": "/merchandising-no-pdv/controle-de-validade/",
+    "anchor": "controle de validade",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Montagem de pontos extras",
+    "from": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "toName": "Reposição de produtos",
+    "to": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "anchor": "reposição de produtos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Montagem de pontos extras",
+    "from": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de montagem de pontos extras",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Controle de validade",
+    "to": "/merchandising-no-pdv/controle-de-validade/",
+    "anchor": "controle de validade",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Controle de validade",
+    "from": "/merchandising-no-pdv/controle-de-validade/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "execução no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Controle de validade",
+    "from": "/merchandising-no-pdv/controle-de-validade/",
+    "toName": "Precificação no PDV",
+    "to": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "anchor": "precificação no PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Controle de validade",
+    "from": "/merchandising-no-pdv/controle-de-validade/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "montagem de pontos extras",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Controle de validade",
+    "from": "/merchandising-no-pdv/controle-de-validade/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de controle de validade",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Precificação no PDV",
+    "to": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "anchor": "precificação no PDV",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Precificação no PDV",
+    "from": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "empresa de merchandising",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Precificação no PDV",
+    "from": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "toName": "Instalação de material de PDV",
+    "to": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "anchor": "instalação de material de PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Precificação no PDV",
+    "from": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "toName": "Controle de validade",
+    "to": "/merchandising-no-pdv/controle-de-validade/",
+    "anchor": "controle de validade",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Precificação no PDV",
+    "from": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de precificação no pdv",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Instalação de material de PDV",
+    "to": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "anchor": "instalação de material de PDV",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Instalação de material de PDV",
+    "from": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "merchandising no ponto de venda",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Instalação de material de PDV",
+    "from": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "toName": "Visual merchandising",
+    "to": "/merchandising-no-pdv/visual-merchandising/",
+    "anchor": "visual merchandising",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Instalação de material de PDV",
+    "from": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "toName": "Precificação no PDV",
+    "to": "/merchandising-no-pdv/precificacao-no-pdv/",
+    "anchor": "precificação no PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Instalação de material de PDV",
+    "from": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de instalação de material de pdv",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Visual merchandising",
+    "to": "/merchandising-no-pdv/visual-merchandising/",
+    "anchor": "visual merchandising",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Visual merchandising",
+    "from": "/merchandising-no-pdv/visual-merchandising/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "agência de merchandising",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Visual merchandising",
+    "from": "/merchandising-no-pdv/visual-merchandising/",
+    "toName": "Gestão de geladeiras em comodato",
+    "to": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "anchor": "gestão de geladeiras em comodato",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Visual merchandising",
+    "from": "/merchandising-no-pdv/visual-merchandising/",
+    "toName": "Instalação de material de PDV",
+    "to": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "anchor": "instalação de material de PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Visual merchandising",
+    "from": "/merchandising-no-pdv/visual-merchandising/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de visual merchandising",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Merchandising no PDV",
+    "from": "/merchandising-no-pdv/",
+    "toName": "Gestão de geladeiras em comodato",
+    "to": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "anchor": "gestão de geladeiras em comodato",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Gestão de geladeiras em comodato",
+    "from": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "execução no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Gestão de geladeiras em comodato",
+    "from": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "toName": "Execução de planograma",
+    "to": "/merchandising-no-pdv/execucao-de-planograma/",
+    "anchor": "execução de planograma",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Gestão de geladeiras em comodato",
+    "from": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "toName": "Visual merchandising",
+    "to": "/merchandising-no-pdv/visual-merchandising/",
+    "anchor": "visual merchandising",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Gestão de geladeiras em comodato",
+    "from": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de gestão de geladeiras em comodato",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "merchandising no PDV",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Auditoria de PDV",
+    "from": "/auditoria-de-pdv/",
+    "toName": "Auditoria de execução",
+    "to": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "anchor": "auditoria de execução",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Auditoria de execução",
+    "from": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria de ponto de venda",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Auditoria de execução",
+    "from": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "toName": "Auditoria de acordos comerciais",
+    "to": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "anchor": "auditoria de acordos comerciais",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de execução",
+    "from": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "toName": "Cliente oculto",
+    "to": "/auditoria-de-pdv/cliente-oculto/",
+    "anchor": "cliente oculto",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de execução",
+    "from": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de auditoria de execução",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Auditoria de PDV",
+    "from": "/auditoria-de-pdv/",
+    "toName": "Auditoria de acordos comerciais",
+    "to": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "anchor": "auditoria de acordos comerciais",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Auditoria de acordos comerciais",
+    "from": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Auditoria de acordos comerciais",
+    "from": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "toName": "Auditoria de preços",
+    "to": "/auditoria-de-pdv/auditoria-de-precos/",
+    "anchor": "auditoria de preços",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de acordos comerciais",
+    "from": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "toName": "Auditoria de execução",
+    "to": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "anchor": "auditoria de execução",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de acordos comerciais",
+    "from": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de auditoria de acordos comerciais",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Auditoria de PDV",
+    "from": "/auditoria-de-pdv/",
+    "toName": "Auditoria de preços",
+    "to": "/auditoria-de-pdv/auditoria-de-precos/",
+    "anchor": "auditoria de preços",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Auditoria de preços",
+    "from": "/auditoria-de-pdv/auditoria-de-precos/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria de merchandising",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Auditoria de preços",
+    "from": "/auditoria-de-pdv/auditoria-de-precos/",
+    "toName": "Auditoria de ruptura",
+    "to": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "anchor": "auditoria de ruptura",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de preços",
+    "from": "/auditoria-de-pdv/auditoria-de-precos/",
+    "toName": "Auditoria de acordos comerciais",
+    "to": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "anchor": "auditoria de acordos comerciais",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de preços",
+    "from": "/auditoria-de-pdv/auditoria-de-precos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de auditoria de preços",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Auditoria de PDV",
+    "from": "/auditoria-de-pdv/",
+    "toName": "Auditoria de ruptura",
+    "to": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "anchor": "auditoria de ruptura",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Auditoria de ruptura",
+    "from": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Auditoria de ruptura",
+    "from": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "toName": "Auditoria de equipamentos",
+    "to": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "anchor": "auditoria de equipamentos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de ruptura",
+    "from": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "toName": "Auditoria de preços",
+    "to": "/auditoria-de-pdv/auditoria-de-precos/",
+    "anchor": "auditoria de preços",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de ruptura",
+    "from": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de auditoria de ruptura",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Auditoria de PDV",
+    "from": "/auditoria-de-pdv/",
+    "toName": "Auditoria de equipamentos",
+    "to": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "anchor": "auditoria de equipamentos",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Auditoria de equipamentos",
+    "from": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria de ponto de venda",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Auditoria de equipamentos",
+    "from": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "toName": "Cliente oculto",
+    "to": "/auditoria-de-pdv/cliente-oculto/",
+    "anchor": "cliente oculto",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de equipamentos",
+    "from": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "toName": "Auditoria de ruptura",
+    "to": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "anchor": "auditoria de ruptura",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de equipamentos",
+    "from": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de auditoria de equipamentos",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Auditoria de PDV",
+    "from": "/auditoria-de-pdv/",
+    "toName": "Cliente oculto",
+    "to": "/auditoria-de-pdv/cliente-oculto/",
+    "anchor": "cliente oculto",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Cliente oculto",
+    "from": "/auditoria-de-pdv/cliente-oculto/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Cliente oculto",
+    "from": "/auditoria-de-pdv/cliente-oculto/",
+    "toName": "Auditoria de execução",
+    "to": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "anchor": "auditoria de execução",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Cliente oculto",
+    "from": "/auditoria-de-pdv/cliente-oculto/",
+    "toName": "Auditoria de equipamentos",
+    "to": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "anchor": "auditoria de equipamentos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Cliente oculto",
+    "from": "/auditoria-de-pdv/cliente-oculto/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de cliente oculto",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Auditoria de PDV",
+    "to": "/auditoria-de-pdv/",
+    "anchor": "auditoria de PDV",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Pesquisa de preços",
+    "to": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "anchor": "pesquisa de preços",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Pesquisa de preços",
+    "from": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "inteligência de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Pesquisa de preços",
+    "from": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "toName": "Mapeamento de PDV",
+    "to": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "anchor": "mapeamento de PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Pesquisa de preços",
+    "from": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "toName": "Trade marketing digital",
+    "to": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "anchor": "trade marketing digital",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Pesquisa de preços",
+    "from": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de pesquisa de preços",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Mapeamento de PDV",
+    "to": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "anchor": "mapeamento de PDV",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Mapeamento de PDV",
+    "from": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "trade intelligence",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Mapeamento de PDV",
+    "from": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "toName": "Pesquisa de distribuição",
+    "to": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "anchor": "pesquisa de distribuição",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Mapeamento de PDV",
+    "from": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "toName": "Pesquisa de preços",
+    "to": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "anchor": "pesquisa de preços",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Mapeamento de PDV",
+    "from": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de mapeamento de pdv",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Pesquisa de distribuição",
+    "to": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "anchor": "pesquisa de distribuição",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Pesquisa de distribuição",
+    "from": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "dados de PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Pesquisa de distribuição",
+    "from": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "toName": "Monitoramento da concorrência",
+    "to": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "anchor": "monitoramento da concorrência",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Pesquisa de distribuição",
+    "from": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "toName": "Mapeamento de PDV",
+    "to": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "anchor": "mapeamento de PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Pesquisa de distribuição",
+    "from": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de pesquisa de distribuição",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Monitoramento da concorrência",
+    "to": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "anchor": "monitoramento da concorrência",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Monitoramento da concorrência",
+    "from": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "informações gerenciais de trade",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Monitoramento da concorrência",
+    "from": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "toName": "Relatórios de trade marketing",
+    "to": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "anchor": "relatórios de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Monitoramento da concorrência",
+    "from": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "toName": "Pesquisa de distribuição",
+    "to": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "anchor": "pesquisa de distribuição",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Monitoramento da concorrência",
+    "from": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de monitoramento da concorrência",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Relatórios de trade marketing",
+    "to": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "anchor": "relatórios de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Relatórios de trade marketing",
+    "from": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "inteligência de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Relatórios de trade marketing",
+    "from": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "toName": "Análise de sell-out",
+    "to": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "anchor": "análise de sell-out",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Relatórios de trade marketing",
+    "from": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "toName": "Monitoramento da concorrência",
+    "to": "/inteligencia-de-mercado/monitoramento-da-concorrencia/",
+    "anchor": "monitoramento da concorrência",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Relatórios de trade marketing",
+    "from": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de relatórios de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Análise de sell-out",
+    "to": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "anchor": "análise de sell-out",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Análise de sell-out",
+    "from": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "trade intelligence",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Análise de sell-out",
+    "from": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "toName": "Pesquisa de shopper",
+    "to": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "anchor": "pesquisa de shopper",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Análise de sell-out",
+    "from": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "toName": "Relatórios de trade marketing",
+    "to": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "anchor": "relatórios de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Análise de sell-out",
+    "from": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de análise de sell-out",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Pesquisa de shopper",
+    "to": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "anchor": "pesquisa de shopper",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Pesquisa de shopper",
+    "from": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "dados de PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Pesquisa de shopper",
+    "from": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "toName": "Trade marketing digital",
+    "to": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "anchor": "trade marketing digital",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Pesquisa de shopper",
+    "from": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "toName": "Análise de sell-out",
+    "to": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "anchor": "análise de sell-out",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Pesquisa de shopper",
+    "from": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de pesquisa de shopper",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Inteligência de mercado",
+    "from": "/inteligencia-de-mercado/",
+    "toName": "Trade marketing digital",
+    "to": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "anchor": "trade marketing digital",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing digital",
+    "from": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "informações gerenciais de trade",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing digital",
+    "from": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "toName": "Pesquisa de preços",
+    "to": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "anchor": "pesquisa de preços",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing digital",
+    "from": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "toName": "Pesquisa de shopper",
+    "to": "/inteligencia-de-mercado/pesquisa-de-shopper/",
+    "anchor": "pesquisa de shopper",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing digital",
+    "from": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing digital",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Inteligência de mercado",
+    "to": "/inteligencia-de-mercado/",
+    "anchor": "inteligência de mercado",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Consultoria de trade marketing",
+    "from": "/consultoria-de-trade-marketing/",
+    "toName": "Diagnóstico de trade marketing",
+    "to": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "anchor": "diagnóstico de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Diagnóstico de trade marketing",
+    "from": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "consultoria em trade",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Diagnóstico de trade marketing",
+    "from": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "toName": "Planejamento de trade marketing",
+    "to": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "anchor": "planejamento de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Diagnóstico de trade marketing",
+    "from": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "toName": "Gestão de acordos comerciais",
+    "to": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "anchor": "gestão de acordos comerciais",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Diagnóstico de trade marketing",
+    "from": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de diagnóstico de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Consultoria de trade marketing",
+    "from": "/consultoria-de-trade-marketing/",
+    "toName": "Planejamento de trade marketing",
+    "to": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "anchor": "planejamento de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Planejamento de trade marketing",
+    "from": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "assessoria de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Planejamento de trade marketing",
+    "from": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "toName": "Gerenciamento por categoria",
+    "to": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "anchor": "gerenciamento por categoria",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Planejamento de trade marketing",
+    "from": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "toName": "Diagnóstico de trade marketing",
+    "to": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "anchor": "diagnóstico de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Planejamento de trade marketing",
+    "from": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de planejamento de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Consultoria de trade marketing",
+    "from": "/consultoria-de-trade-marketing/",
+    "toName": "Gerenciamento por categoria",
+    "to": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "anchor": "gerenciamento por categoria",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Gerenciamento por categoria",
+    "from": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "especialista em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Gerenciamento por categoria",
+    "from": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "toName": "Estruturação de área de trade marketing",
+    "to": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "anchor": "estruturação de área de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Gerenciamento por categoria",
+    "from": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "toName": "Planejamento de trade marketing",
+    "to": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "anchor": "planejamento de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Gerenciamento por categoria",
+    "from": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de gerenciamento por categoria",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Consultoria de trade marketing",
+    "from": "/consultoria-de-trade-marketing/",
+    "toName": "Estruturação de área de trade marketing",
+    "to": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "anchor": "estruturação de área de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Estruturação de área de trade marketing",
+    "from": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "consultoria em trade",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Estruturação de área de trade marketing",
+    "from": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "toName": "Terceirização de trade marketing",
+    "to": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "anchor": "terceirização de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Estruturação de área de trade marketing",
+    "from": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "toName": "Gerenciamento por categoria",
+    "to": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "anchor": "gerenciamento por categoria",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Estruturação de área de trade marketing",
+    "from": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de estruturação de área de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Consultoria de trade marketing",
+    "from": "/consultoria-de-trade-marketing/",
+    "toName": "Terceirização de trade marketing",
+    "to": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "anchor": "terceirização de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Terceirização de trade marketing",
+    "from": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "assessoria de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Terceirização de trade marketing",
+    "from": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "toName": "Gestão de acordos comerciais",
+    "to": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "anchor": "gestão de acordos comerciais",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Terceirização de trade marketing",
+    "from": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "toName": "Estruturação de área de trade marketing",
+    "to": "/consultoria-de-trade-marketing/estruturacao-de-area-de-trade-marketing/",
+    "anchor": "estruturação de área de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Terceirização de trade marketing",
+    "from": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de terceirização de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Consultoria de trade marketing",
+    "from": "/consultoria-de-trade-marketing/",
+    "toName": "Gestão de acordos comerciais",
+    "to": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "anchor": "gestão de acordos comerciais",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Gestão de acordos comerciais",
+    "from": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "especialista em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Gestão de acordos comerciais",
+    "from": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "toName": "Diagnóstico de trade marketing",
+    "to": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "anchor": "diagnóstico de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Gestão de acordos comerciais",
+    "from": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "toName": "Terceirização de trade marketing",
+    "to": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "anchor": "terceirização de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Gestão de acordos comerciais",
+    "from": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de gestão de acordos comerciais",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "consultoria de trade marketing",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Ações de Páscoa",
+    "to": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "anchor": "ações de Páscoa",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ações de Páscoa",
+    "from": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "lançamento de produto no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ações de Páscoa",
+    "from": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "toName": "Ações de Natal",
+    "to": "/lancamento-de-produtos/acoes-de-natal/",
+    "anchor": "ações de Natal",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de Páscoa",
+    "from": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "toName": "Ações de inauguração de lojas",
+    "to": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "anchor": "ações de inauguração de lojas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de Páscoa",
+    "from": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ações de páscoa",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Ações de Natal",
+    "to": "/lancamento-de-produtos/acoes-de-natal/",
+    "anchor": "ações de Natal",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ações de Natal",
+    "from": "/lancamento-de-produtos/acoes-de-natal/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "implantação de novos produtos",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ações de Natal",
+    "from": "/lancamento-de-produtos/acoes-de-natal/",
+    "toName": "Ações em datas comemorativas",
+    "to": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "anchor": "ações em datas comemorativas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de Natal",
+    "from": "/lancamento-de-produtos/acoes-de-natal/",
+    "toName": "Ações de Páscoa",
+    "to": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "anchor": "ações de Páscoa",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de Natal",
+    "from": "/lancamento-de-produtos/acoes-de-natal/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ações de natal",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Ações em datas comemorativas",
+    "to": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "anchor": "ações em datas comemorativas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ações em datas comemorativas",
+    "from": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "ações sazonais no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ações em datas comemorativas",
+    "from": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "toName": "Ações de volta às aulas",
+    "to": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "anchor": "ações de volta às aulas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações em datas comemorativas",
+    "from": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "toName": "Ações de Natal",
+    "to": "/lancamento-de-produtos/acoes-de-natal/",
+    "anchor": "ações de Natal",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações em datas comemorativas",
+    "from": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ações em datas comemorativas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Ações de volta às aulas",
+    "to": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "anchor": "ações de volta às aulas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ações de volta às aulas",
+    "from": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "plano de distribuição de lançamento",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ações de volta às aulas",
+    "from": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "toName": "Ações de verão",
+    "to": "/lancamento-de-produtos/acoes-de-verao/",
+    "anchor": "ações de verão",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de volta às aulas",
+    "from": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "toName": "Ações em datas comemorativas",
+    "to": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "anchor": "ações em datas comemorativas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de volta às aulas",
+    "from": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ações de volta às aulas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Ações de verão",
+    "to": "/lancamento-de-produtos/acoes-de-verao/",
+    "anchor": "ações de verão",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ações de verão",
+    "from": "/lancamento-de-produtos/acoes-de-verao/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "lançamento de produto no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ações de verão",
+    "from": "/lancamento-de-produtos/acoes-de-verao/",
+    "toName": "Ações de inauguração de lojas",
+    "to": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "anchor": "ações de inauguração de lojas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de verão",
+    "from": "/lancamento-de-produtos/acoes-de-verao/",
+    "toName": "Ações de volta às aulas",
+    "to": "/lancamento-de-produtos/acoes-de-volta-as-aulas/",
+    "anchor": "ações de volta às aulas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de verão",
+    "from": "/lancamento-de-produtos/acoes-de-verao/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ações de verão",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Ações de inauguração de lojas",
+    "to": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "anchor": "ações de inauguração de lojas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ações de inauguração de lojas",
+    "from": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "implantação de novos produtos",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ações de inauguração de lojas",
+    "from": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "toName": "Ações de Páscoa",
+    "to": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "anchor": "ações de Páscoa",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de inauguração de lojas",
+    "from": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "toName": "Ações de verão",
+    "to": "/lancamento-de-produtos/acoes-de-verao/",
+    "anchor": "ações de verão",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ações de inauguração de lojas",
+    "from": "/lancamento-de-produtos/acoes-de-inauguracao-de-lojas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ações de inauguração de lojas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "lançamento de produtos",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Live marketing",
+    "from": "/live-marketing/",
+    "toName": "Degustação em supermercados",
+    "to": "/live-marketing/degustacao-em-supermercados/",
+    "anchor": "degustação em supermercados",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Degustação em supermercados",
+    "from": "/live-marketing/degustacao-em-supermercados/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "ativação no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Degustação em supermercados",
+    "from": "/live-marketing/degustacao-em-supermercados/",
+    "toName": "Demonstração de produtos",
+    "to": "/live-marketing/demonstracao-de-produtos/",
+    "anchor": "demonstração de produtos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Degustação em supermercados",
+    "from": "/live-marketing/degustacao-em-supermercados/",
+    "toName": "Eventos para o varejo",
+    "to": "/live-marketing/eventos-para-o-varejo/",
+    "anchor": "eventos para o varejo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Degustação em supermercados",
+    "from": "/live-marketing/degustacao-em-supermercados/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de degustação em supermercados",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Live marketing",
+    "from": "/live-marketing/",
+    "toName": "Demonstração de produtos",
+    "to": "/live-marketing/demonstracao-de-produtos/",
+    "anchor": "demonstração de produtos",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Demonstração de produtos",
+    "from": "/live-marketing/demonstracao-de-produtos/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "marketing promocional",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Demonstração de produtos",
+    "from": "/live-marketing/demonstracao-de-produtos/",
+    "toName": "Distribuição de amostras",
+    "to": "/live-marketing/distribuicao-de-amostras/",
+    "anchor": "distribuição de amostras",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Demonstração de produtos",
+    "from": "/live-marketing/demonstracao-de-produtos/",
+    "toName": "Degustação em supermercados",
+    "to": "/live-marketing/degustacao-em-supermercados/",
+    "anchor": "degustação em supermercados",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Demonstração de produtos",
+    "from": "/live-marketing/demonstracao-de-produtos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de demonstração de produtos",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Live marketing",
+    "from": "/live-marketing/",
+    "toName": "Distribuição de amostras",
+    "to": "/live-marketing/distribuicao-de-amostras/",
+    "anchor": "distribuição de amostras",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Distribuição de amostras",
+    "from": "/live-marketing/distribuicao-de-amostras/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "experiência de marca no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Distribuição de amostras",
+    "from": "/live-marketing/distribuicao-de-amostras/",
+    "toName": "Ativação de marca",
+    "to": "/live-marketing/ativacao-de-marca/",
+    "anchor": "ativação de marca",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Distribuição de amostras",
+    "from": "/live-marketing/distribuicao-de-amostras/",
+    "toName": "Demonstração de produtos",
+    "to": "/live-marketing/demonstracao-de-produtos/",
+    "anchor": "demonstração de produtos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Distribuição de amostras",
+    "from": "/live-marketing/distribuicao-de-amostras/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de distribuição de amostras",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Live marketing",
+    "from": "/live-marketing/",
+    "toName": "Ativação de marca",
+    "to": "/live-marketing/ativacao-de-marca/",
+    "anchor": "ativação de marca",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Ativação de marca",
+    "from": "/live-marketing/ativacao-de-marca/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "ações promocionais",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Ativação de marca",
+    "from": "/live-marketing/ativacao-de-marca/",
+    "toName": "Promoções comerciais",
+    "to": "/live-marketing/promocoes-comerciais/",
+    "anchor": "promoções comerciais",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ativação de marca",
+    "from": "/live-marketing/ativacao-de-marca/",
+    "toName": "Distribuição de amostras",
+    "to": "/live-marketing/distribuicao-de-amostras/",
+    "anchor": "distribuição de amostras",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Ativação de marca",
+    "from": "/live-marketing/ativacao-de-marca/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de ativação de marca",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Live marketing",
+    "from": "/live-marketing/",
+    "toName": "Promoções comerciais",
+    "to": "/live-marketing/promocoes-comerciais/",
+    "anchor": "promoções comerciais",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promoções comerciais",
+    "from": "/live-marketing/promocoes-comerciais/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "ativação no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promoções comerciais",
+    "from": "/live-marketing/promocoes-comerciais/",
+    "toName": "Eventos para o varejo",
+    "to": "/live-marketing/eventos-para-o-varejo/",
+    "anchor": "eventos para o varejo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promoções comerciais",
+    "from": "/live-marketing/promocoes-comerciais/",
+    "toName": "Ativação de marca",
+    "to": "/live-marketing/ativacao-de-marca/",
+    "anchor": "ativação de marca",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promoções comerciais",
+    "from": "/live-marketing/promocoes-comerciais/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promoções comerciais",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Live marketing",
+    "from": "/live-marketing/",
+    "toName": "Eventos para o varejo",
+    "to": "/live-marketing/eventos-para-o-varejo/",
+    "anchor": "eventos para o varejo",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Eventos para o varejo",
+    "from": "/live-marketing/eventos-para-o-varejo/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "marketing promocional",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Eventos para o varejo",
+    "from": "/live-marketing/eventos-para-o-varejo/",
+    "toName": "Degustação em supermercados",
+    "to": "/live-marketing/degustacao-em-supermercados/",
+    "anchor": "degustação em supermercados",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Eventos para o varejo",
+    "from": "/live-marketing/eventos-para-o-varejo/",
+    "toName": "Promoções comerciais",
+    "to": "/live-marketing/promocoes-comerciais/",
+    "anchor": "promoções comerciais",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Eventos para o varejo",
+    "from": "/live-marketing/eventos-para-o-varejo/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de eventos para o varejo",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "live marketing",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Treinamento de equipes de varejo",
+    "from": "/treinamento-de-equipes-de-varejo/",
+    "toName": "Treinamento de promotores",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "anchor": "treinamento de promotores",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Treinamento de promotores",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "capacitação no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Treinamento de promotores",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "toName": "Treinamento de vendedores do varejo",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "anchor": "treinamento de vendedores do varejo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Treinamento de promotores",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "toName": "Capacitação de equipes de trade marketing",
+    "to": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "anchor": "capacitação de equipes de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Treinamento de promotores",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de treinamento de promotores",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Treinamento de equipes de varejo",
+    "from": "/treinamento-de-equipes-de-varejo/",
+    "toName": "Treinamento de vendedores do varejo",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "anchor": "treinamento de vendedores do varejo",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Treinamento de vendedores do varejo",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "treinamento no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Treinamento de vendedores do varejo",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "toName": "Treinamento de balconistas",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "anchor": "treinamento de balconistas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Treinamento de vendedores do varejo",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "toName": "Treinamento de promotores",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "anchor": "treinamento de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Treinamento de vendedores do varejo",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de treinamento de vendedores do varejo",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Treinamento de equipes de varejo",
+    "from": "/treinamento-de-equipes-de-varejo/",
+    "toName": "Treinamento de balconistas",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "anchor": "treinamento de balconistas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Treinamento de balconistas",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "treinamento e incentivo para o varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Treinamento de balconistas",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "toName": "Campanhas de incentivo",
+    "to": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "anchor": "campanhas de incentivo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Treinamento de balconistas",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "toName": "Treinamento de vendedores do varejo",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "anchor": "treinamento de vendedores do varejo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Treinamento de balconistas",
+    "from": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de treinamento de balconistas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Treinamento de equipes de varejo",
+    "from": "/treinamento-de-equipes-de-varejo/",
+    "toName": "Campanhas de incentivo",
+    "to": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "anchor": "campanhas de incentivo",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Campanhas de incentivo",
+    "from": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "capacitação no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Campanhas de incentivo",
+    "from": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "toName": "Programa de relacionamento com varejistas",
+    "to": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "anchor": "programa de relacionamento com varejistas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Campanhas de incentivo",
+    "from": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "toName": "Treinamento de balconistas",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "anchor": "treinamento de balconistas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Campanhas de incentivo",
+    "from": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de campanhas de incentivo",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Treinamento de equipes de varejo",
+    "from": "/treinamento-de-equipes-de-varejo/",
+    "toName": "Programa de relacionamento com varejistas",
+    "to": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "anchor": "programa de relacionamento com varejistas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Programa de relacionamento com varejistas",
+    "from": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "treinamento no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Programa de relacionamento com varejistas",
+    "from": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "toName": "Capacitação de equipes de trade marketing",
+    "to": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "anchor": "capacitação de equipes de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Programa de relacionamento com varejistas",
+    "from": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "toName": "Campanhas de incentivo",
+    "to": "/treinamento-de-equipes-de-varejo/campanhas-de-incentivo/",
+    "anchor": "campanhas de incentivo",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Programa de relacionamento com varejistas",
+    "from": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de programa de relacionamento com varejistas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Treinamento de equipes de varejo",
+    "from": "/treinamento-de-equipes-de-varejo/",
+    "toName": "Capacitação de equipes de trade marketing",
+    "to": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "anchor": "capacitação de equipes de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Capacitação de equipes de trade marketing",
+    "from": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "treinamento e incentivo para o varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Capacitação de equipes de trade marketing",
+    "from": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "toName": "Treinamento de promotores",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "anchor": "treinamento de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Capacitação de equipes de trade marketing",
+    "from": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "toName": "Programa de relacionamento com varejistas",
+    "to": "/treinamento-de-equipes-de-varejo/programa-de-relacionamento-com-varejistas/",
+    "anchor": "programa de relacionamento com varejistas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Capacitação de equipes de trade marketing",
+    "from": "/treinamento-de-equipes-de-varejo/capacitacao-de-equipes-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de capacitação de equipes de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Treinamento de equipes de varejo",
+    "to": "/treinamento-de-equipes-de-varejo/",
+    "anchor": "treinamento de equipes de varejo",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para alimentos",
+    "to": "/setores/trade-marketing-para-alimentos/",
+    "anchor": "trade marketing para alimentos",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para alimentos",
+    "from": "/setores/trade-marketing-para-alimentos/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por setor",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para alimentos",
+    "from": "/setores/trade-marketing-para-alimentos/",
+    "toName": "Trade marketing para bebidas",
+    "to": "/setores/trade-marketing-para-bebidas/",
+    "anchor": "trade marketing para bebidas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para alimentos",
+    "from": "/setores/trade-marketing-para-alimentos/",
+    "toName": "Trade marketing para material de construção",
+    "to": "/setores/trade-marketing-para-material-de-construcao/",
+    "anchor": "trade marketing para material de construção",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para alimentos",
+    "from": "/setores/trade-marketing-para-alimentos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para alimentos",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para bebidas",
+    "to": "/setores/trade-marketing-para-bebidas/",
+    "anchor": "trade marketing para bebidas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para bebidas",
+    "from": "/setores/trade-marketing-para-bebidas/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por segmento",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para bebidas",
+    "from": "/setores/trade-marketing-para-bebidas/",
+    "toName": "Trade marketing para laticínios",
+    "to": "/setores/trade-marketing-para-laticinios/",
+    "anchor": "trade marketing para laticínios",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para bebidas",
+    "from": "/setores/trade-marketing-para-bebidas/",
+    "toName": "Trade marketing para alimentos",
+    "to": "/setores/trade-marketing-para-alimentos/",
+    "anchor": "trade marketing para alimentos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para bebidas",
+    "from": "/setores/trade-marketing-para-bebidas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para bebidas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para laticínios",
+    "to": "/setores/trade-marketing-para-laticinios/",
+    "anchor": "trade marketing para laticínios",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para laticínios",
+    "from": "/setores/trade-marketing-para-laticinios/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por setor",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para laticínios",
+    "from": "/setores/trade-marketing-para-laticinios/",
+    "toName": "Trade marketing para cosméticos",
+    "to": "/setores/trade-marketing-para-cosmeticos/",
+    "anchor": "trade marketing para cosméticos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para laticínios",
+    "from": "/setores/trade-marketing-para-laticinios/",
+    "toName": "Trade marketing para bebidas",
+    "to": "/setores/trade-marketing-para-bebidas/",
+    "anchor": "trade marketing para bebidas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para laticínios",
+    "from": "/setores/trade-marketing-para-laticinios/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para laticínios",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para cosméticos",
+    "to": "/setores/trade-marketing-para-cosmeticos/",
+    "anchor": "trade marketing para cosméticos",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para cosméticos",
+    "from": "/setores/trade-marketing-para-cosmeticos/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por segmento",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para cosméticos",
+    "from": "/setores/trade-marketing-para-cosmeticos/",
+    "toName": "Trade marketing para produtos de limpeza",
+    "to": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "anchor": "trade marketing para produtos de limpeza",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para cosméticos",
+    "from": "/setores/trade-marketing-para-cosmeticos/",
+    "toName": "Trade marketing para laticínios",
+    "to": "/setores/trade-marketing-para-laticinios/",
+    "anchor": "trade marketing para laticínios",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para cosméticos",
+    "from": "/setores/trade-marketing-para-cosmeticos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para cosméticos",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para produtos de limpeza",
+    "to": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "anchor": "trade marketing para produtos de limpeza",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para produtos de limpeza",
+    "from": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por setor",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para produtos de limpeza",
+    "from": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "toName": "Trade marketing para pet",
+    "to": "/setores/trade-marketing-para-pet/",
+    "anchor": "trade marketing para pet",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para produtos de limpeza",
+    "from": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "toName": "Trade marketing para cosméticos",
+    "to": "/setores/trade-marketing-para-cosmeticos/",
+    "anchor": "trade marketing para cosméticos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para produtos de limpeza",
+    "from": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para produtos de limpeza",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para pet",
+    "to": "/setores/trade-marketing-para-pet/",
+    "anchor": "trade marketing para pet",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para pet",
+    "from": "/setores/trade-marketing-para-pet/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por segmento",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para pet",
+    "from": "/setores/trade-marketing-para-pet/",
+    "toName": "Trade marketing farmacêutico",
+    "to": "/setores/trade-marketing-farmaceutico/",
+    "anchor": "trade marketing farmacêutico",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para pet",
+    "from": "/setores/trade-marketing-para-pet/",
+    "toName": "Trade marketing para produtos de limpeza",
+    "to": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "anchor": "trade marketing para produtos de limpeza",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para pet",
+    "from": "/setores/trade-marketing-para-pet/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para pet",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing farmacêutico",
+    "to": "/setores/trade-marketing-farmaceutico/",
+    "anchor": "trade marketing farmacêutico",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing farmacêutico",
+    "from": "/setores/trade-marketing-farmaceutico/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por setor",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing farmacêutico",
+    "from": "/setores/trade-marketing-farmaceutico/",
+    "toName": "Trade marketing para material de construção",
+    "to": "/setores/trade-marketing-para-material-de-construcao/",
+    "anchor": "trade marketing para material de construção",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing farmacêutico",
+    "from": "/setores/trade-marketing-farmaceutico/",
+    "toName": "Trade marketing para pet",
+    "to": "/setores/trade-marketing-para-pet/",
+    "anchor": "trade marketing para pet",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing farmacêutico",
+    "from": "/setores/trade-marketing-farmaceutico/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing farmacêutico",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Setores atendidos",
+    "from": "/setores/",
+    "toName": "Trade marketing para material de construção",
+    "to": "/setores/trade-marketing-para-material-de-construcao/",
+    "anchor": "trade marketing para material de construção",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing para material de construção",
+    "from": "/setores/trade-marketing-para-material-de-construcao/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "trade marketing por segmento",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing para material de construção",
+    "from": "/setores/trade-marketing-para-material-de-construcao/",
+    "toName": "Trade marketing para alimentos",
+    "to": "/setores/trade-marketing-para-alimentos/",
+    "anchor": "trade marketing para alimentos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para material de construção",
+    "from": "/setores/trade-marketing-para-material-de-construcao/",
+    "toName": "Trade marketing farmacêutico",
+    "to": "/setores/trade-marketing-farmaceutico/",
+    "anchor": "trade marketing farmacêutico",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing para material de construção",
+    "from": "/setores/trade-marketing-para-material-de-construcao/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing para material de construção",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Setores atendidos",
+    "to": "/setores/",
+    "anchor": "setores atendidos",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Canais de venda atendidos",
+    "from": "/canais/",
+    "toName": "Merchandising em supermercados",
+    "to": "/canais/merchandising-em-supermercados/",
+    "anchor": "merchandising em supermercados",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising em supermercados",
+    "from": "/canais/merchandising-em-supermercados/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "trade marketing por canal",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising em supermercados",
+    "from": "/canais/merchandising-em-supermercados/",
+    "toName": "Merchandising em atacarejos",
+    "to": "/canais/merchandising-em-atacarejos/",
+    "anchor": "merchandising em atacarejos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em supermercados",
+    "from": "/canais/merchandising-em-supermercados/",
+    "toName": "Merchandising no varejo tradicional",
+    "to": "/canais/merchandising-no-varejo-tradicional/",
+    "anchor": "merchandising no varejo tradicional",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em supermercados",
+    "from": "/canais/merchandising-em-supermercados/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising em supermercados",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Canais de venda atendidos",
+    "from": "/canais/",
+    "toName": "Merchandising em atacarejos",
+    "to": "/canais/merchandising-em-atacarejos/",
+    "anchor": "merchandising em atacarejos",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising em atacarejos",
+    "from": "/canais/merchandising-em-atacarejos/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "canais do varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising em atacarejos",
+    "from": "/canais/merchandising-em-atacarejos/",
+    "toName": "Merchandising em farmácias",
+    "to": "/canais/merchandising-em-farmacias/",
+    "anchor": "merchandising em farmácias",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em atacarejos",
+    "from": "/canais/merchandising-em-atacarejos/",
+    "toName": "Merchandising em supermercados",
+    "to": "/canais/merchandising-em-supermercados/",
+    "anchor": "merchandising em supermercados",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em atacarejos",
+    "from": "/canais/merchandising-em-atacarejos/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising em atacarejos",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Canais de venda atendidos",
+    "from": "/canais/",
+    "toName": "Merchandising em farmácias",
+    "to": "/canais/merchandising-em-farmacias/",
+    "anchor": "merchandising em farmácias",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising em farmácias",
+    "from": "/canais/merchandising-em-farmacias/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "trade marketing por canal",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising em farmácias",
+    "from": "/canais/merchandising-em-farmacias/",
+    "toName": "Merchandising em home centers",
+    "to": "/canais/merchandising-em-home-centers/",
+    "anchor": "merchandising em home centers",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em farmácias",
+    "from": "/canais/merchandising-em-farmacias/",
+    "toName": "Merchandising em atacarejos",
+    "to": "/canais/merchandising-em-atacarejos/",
+    "anchor": "merchandising em atacarejos",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em farmácias",
+    "from": "/canais/merchandising-em-farmacias/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising em farmácias",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Canais de venda atendidos",
+    "from": "/canais/",
+    "toName": "Merchandising em home centers",
+    "to": "/canais/merchandising-em-home-centers/",
+    "anchor": "merchandising em home centers",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising em home centers",
+    "from": "/canais/merchandising-em-home-centers/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "canais do varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising em home centers",
+    "from": "/canais/merchandising-em-home-centers/",
+    "toName": "Merchandising em pet shops",
+    "to": "/canais/merchandising-em-pet-shops/",
+    "anchor": "merchandising em pet shops",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em home centers",
+    "from": "/canais/merchandising-em-home-centers/",
+    "toName": "Merchandising em farmácias",
+    "to": "/canais/merchandising-em-farmacias/",
+    "anchor": "merchandising em farmácias",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em home centers",
+    "from": "/canais/merchandising-em-home-centers/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising em home centers",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Canais de venda atendidos",
+    "from": "/canais/",
+    "toName": "Merchandising em pet shops",
+    "to": "/canais/merchandising-em-pet-shops/",
+    "anchor": "merchandising em pet shops",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising em pet shops",
+    "from": "/canais/merchandising-em-pet-shops/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "trade marketing por canal",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising em pet shops",
+    "from": "/canais/merchandising-em-pet-shops/",
+    "toName": "Merchandising no varejo tradicional",
+    "to": "/canais/merchandising-no-varejo-tradicional/",
+    "anchor": "merchandising no varejo tradicional",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em pet shops",
+    "from": "/canais/merchandising-em-pet-shops/",
+    "toName": "Merchandising em home centers",
+    "to": "/canais/merchandising-em-home-centers/",
+    "anchor": "merchandising em home centers",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising em pet shops",
+    "from": "/canais/merchandising-em-pet-shops/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising em pet shops",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Canais de venda atendidos",
+    "from": "/canais/",
+    "toName": "Merchandising no varejo tradicional",
+    "to": "/canais/merchandising-no-varejo-tradicional/",
+    "anchor": "merchandising no varejo tradicional",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no varejo tradicional",
+    "from": "/canais/merchandising-no-varejo-tradicional/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "canais do varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no varejo tradicional",
+    "from": "/canais/merchandising-no-varejo-tradicional/",
+    "toName": "Merchandising em supermercados",
+    "to": "/canais/merchandising-em-supermercados/",
+    "anchor": "merchandising em supermercados",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no varejo tradicional",
+    "from": "/canais/merchandising-no-varejo-tradicional/",
+    "toName": "Merchandising em pet shops",
+    "to": "/canais/merchandising-em-pet-shops/",
+    "anchor": "merchandising em pet shops",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no varejo tradicional",
+    "from": "/canais/merchandising-no-varejo-tradicional/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no varejo tradicional",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Canais de venda atendidos",
+    "to": "/canais/",
+    "anchor": "canais de venda atendidos",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Redes atendidas",
+    "from": "/redes-atendidas/",
+    "toName": "Merchandising no Carrefour",
+    "to": "/redes-atendidas/merchandising-no-carrefour/",
+    "anchor": "merchandising no Carrefour",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no Carrefour",
+    "from": "/redes-atendidas/merchandising-no-carrefour/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "redes varejistas atendidas",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no Carrefour",
+    "from": "/redes-atendidas/merchandising-no-carrefour/",
+    "toName": "Merchandising no Atacadão",
+    "to": "/redes-atendidas/merchandising-no-atacadao/",
+    "anchor": "merchandising no Atacadão",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Carrefour",
+    "from": "/redes-atendidas/merchandising-no-carrefour/",
+    "toName": "Merchandising no GPA",
+    "to": "/redes-atendidas/merchandising-no-gpa/",
+    "anchor": "merchandising no GPA",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Carrefour",
+    "from": "/redes-atendidas/merchandising-no-carrefour/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no carrefour",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Redes atendidas",
+    "from": "/redes-atendidas/",
+    "toName": "Merchandising no Atacadão",
+    "to": "/redes-atendidas/merchandising-no-atacadao/",
+    "anchor": "merchandising no Atacadão",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no Atacadão",
+    "from": "/redes-atendidas/merchandising-no-atacadao/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "onde atuamos no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no Atacadão",
+    "from": "/redes-atendidas/merchandising-no-atacadao/",
+    "toName": "Merchandising no Assaí",
+    "to": "/redes-atendidas/merchandising-no-assai/",
+    "anchor": "merchandising no Assaí",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Atacadão",
+    "from": "/redes-atendidas/merchandising-no-atacadao/",
+    "toName": "Merchandising no Carrefour",
+    "to": "/redes-atendidas/merchandising-no-carrefour/",
+    "anchor": "merchandising no Carrefour",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Atacadão",
+    "from": "/redes-atendidas/merchandising-no-atacadao/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no atacadão",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Redes atendidas",
+    "from": "/redes-atendidas/",
+    "toName": "Merchandising no Assaí",
+    "to": "/redes-atendidas/merchandising-no-assai/",
+    "anchor": "merchandising no Assaí",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no Assaí",
+    "from": "/redes-atendidas/merchandising-no-assai/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "redes varejistas atendidas",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no Assaí",
+    "from": "/redes-atendidas/merchandising-no-assai/",
+    "toName": "Merchandising no Grupo Mateus",
+    "to": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "anchor": "merchandising no Grupo Mateus",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Assaí",
+    "from": "/redes-atendidas/merchandising-no-assai/",
+    "toName": "Merchandising no Atacadão",
+    "to": "/redes-atendidas/merchandising-no-atacadao/",
+    "anchor": "merchandising no Atacadão",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Assaí",
+    "from": "/redes-atendidas/merchandising-no-assai/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no assaí",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Redes atendidas",
+    "from": "/redes-atendidas/",
+    "toName": "Merchandising no Grupo Mateus",
+    "to": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "anchor": "merchandising no Grupo Mateus",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no Grupo Mateus",
+    "from": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "onde atuamos no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no Grupo Mateus",
+    "from": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "toName": "Merchandising no Supermercados BH",
+    "to": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "anchor": "merchandising no Supermercados BH",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Grupo Mateus",
+    "from": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "toName": "Merchandising no Assaí",
+    "to": "/redes-atendidas/merchandising-no-assai/",
+    "anchor": "merchandising no Assaí",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Grupo Mateus",
+    "from": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no grupo mateus",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Redes atendidas",
+    "from": "/redes-atendidas/",
+    "toName": "Merchandising no Supermercados BH",
+    "to": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "anchor": "merchandising no Supermercados BH",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no Supermercados BH",
+    "from": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "redes varejistas atendidas",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no Supermercados BH",
+    "from": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "toName": "Merchandising no GPA",
+    "to": "/redes-atendidas/merchandising-no-gpa/",
+    "anchor": "merchandising no GPA",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Supermercados BH",
+    "from": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "toName": "Merchandising no Grupo Mateus",
+    "to": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "anchor": "merchandising no Grupo Mateus",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no Supermercados BH",
+    "from": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no supermercados bh",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Redes atendidas",
+    "from": "/redes-atendidas/",
+    "toName": "Merchandising no GPA",
+    "to": "/redes-atendidas/merchandising-no-gpa/",
+    "anchor": "merchandising no GPA",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Merchandising no GPA",
+    "from": "/redes-atendidas/merchandising-no-gpa/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "onde atuamos no varejo",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Merchandising no GPA",
+    "from": "/redes-atendidas/merchandising-no-gpa/",
+    "toName": "Merchandising no Carrefour",
+    "to": "/redes-atendidas/merchandising-no-carrefour/",
+    "anchor": "merchandising no Carrefour",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no GPA",
+    "from": "/redes-atendidas/merchandising-no-gpa/",
+    "toName": "Merchandising no Supermercados BH",
+    "to": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "anchor": "merchandising no Supermercados BH",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Merchandising no GPA",
+    "from": "/redes-atendidas/merchandising-no-gpa/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de merchandising no gpa",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "redes atendidas",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Cobertura nacional",
+    "from": "/cobertura-nacional/",
+    "toName": "Trade marketing no Nordeste",
+    "to": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "anchor": "trade marketing no Nordeste",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing no Nordeste",
+    "from": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "trade marketing em todo o Brasil",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing no Nordeste",
+    "from": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "toName": "Trade marketing no Norte",
+    "to": "/cobertura-nacional/trade-marketing-no-norte/",
+    "anchor": "trade marketing no Norte",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Nordeste",
+    "from": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "toName": "Trade marketing no Sul",
+    "to": "/cobertura-nacional/trade-marketing-no-sul/",
+    "anchor": "trade marketing no Sul",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Nordeste",
+    "from": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing no nordeste",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Cobertura nacional",
+    "from": "/cobertura-nacional/",
+    "toName": "Trade marketing no Norte",
+    "to": "/cobertura-nacional/trade-marketing-no-norte/",
+    "anchor": "trade marketing no Norte",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing no Norte",
+    "from": "/cobertura-nacional/trade-marketing-no-norte/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "agência com atendimento nacional",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing no Norte",
+    "from": "/cobertura-nacional/trade-marketing-no-norte/",
+    "toName": "Trade marketing no Centro-Oeste",
+    "to": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "anchor": "trade marketing no Centro-Oeste",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Norte",
+    "from": "/cobertura-nacional/trade-marketing-no-norte/",
+    "toName": "Trade marketing no Nordeste",
+    "to": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "anchor": "trade marketing no Nordeste",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Norte",
+    "from": "/cobertura-nacional/trade-marketing-no-norte/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing no norte",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Cobertura nacional",
+    "from": "/cobertura-nacional/",
+    "toName": "Trade marketing no Centro-Oeste",
+    "to": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "anchor": "trade marketing no Centro-Oeste",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing no Centro-Oeste",
+    "from": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "atendimento no interior",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing no Centro-Oeste",
+    "from": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "toName": "Trade marketing no Sudeste",
+    "to": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "anchor": "trade marketing no Sudeste",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Centro-Oeste",
+    "from": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "toName": "Trade marketing no Norte",
+    "to": "/cobertura-nacional/trade-marketing-no-norte/",
+    "anchor": "trade marketing no Norte",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Centro-Oeste",
+    "from": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing no centro-oeste",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Cobertura nacional",
+    "from": "/cobertura-nacional/",
+    "toName": "Trade marketing no Sudeste",
+    "to": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "anchor": "trade marketing no Sudeste",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing no Sudeste",
+    "from": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "trade marketing em todo o Brasil",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing no Sudeste",
+    "from": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "toName": "Trade marketing no Sul",
+    "to": "/cobertura-nacional/trade-marketing-no-sul/",
+    "anchor": "trade marketing no Sul",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Sudeste",
+    "from": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "toName": "Trade marketing no Centro-Oeste",
+    "to": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "anchor": "trade marketing no Centro-Oeste",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Sudeste",
+    "from": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing no sudeste",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Cobertura nacional",
+    "from": "/cobertura-nacional/",
+    "toName": "Trade marketing no Sul",
+    "to": "/cobertura-nacional/trade-marketing-no-sul/",
+    "anchor": "trade marketing no Sul",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Trade marketing no Sul",
+    "from": "/cobertura-nacional/trade-marketing-no-sul/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "agência com atendimento nacional",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Trade marketing no Sul",
+    "from": "/cobertura-nacional/trade-marketing-no-sul/",
+    "toName": "Trade marketing no Nordeste",
+    "to": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "anchor": "trade marketing no Nordeste",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Sul",
+    "from": "/cobertura-nacional/trade-marketing-no-sul/",
+    "toName": "Trade marketing no Sudeste",
+    "to": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "anchor": "trade marketing no Sudeste",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Trade marketing no Sul",
+    "from": "/cobertura-nacional/trade-marketing-no-sul/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de trade marketing no sul",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "cobertura nacional",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "comprovação da execução no PDV",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Comprovação da execução no PDV",
+    "from": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "método de trabalho em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Comprovação da execução no PDV",
+    "from": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "toName": "Implantação de operação de trade marketing",
+    "to": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "anchor": "implantação de operação de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Comprovação da execução no PDV",
+    "from": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "toName": "Operação piloto de trade marketing",
+    "to": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "anchor": "operação piloto de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Comprovação da execução no PDV",
+    "from": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de comprovação da execução no pdv",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Implantação de operação de trade marketing",
+    "to": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "anchor": "implantação de operação de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Implantação de operação de trade marketing",
+    "from": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "metodologia de execução no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Implantação de operação de trade marketing",
+    "from": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "toName": "Transição de agência de trade marketing",
+    "to": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "anchor": "transição de agência de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Implantação de operação de trade marketing",
+    "from": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "comprovação da execução no PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Implantação de operação de trade marketing",
+    "from": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de implantação de operação de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Transição de agência de trade marketing",
+    "to": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "anchor": "transição de agência de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Transição de agência de trade marketing",
+    "from": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "método de trabalho em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Transição de agência de trade marketing",
+    "from": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "toName": "Conformidade trabalhista na terceirização",
+    "to": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "anchor": "conformidade trabalhista na terceirização",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Transição de agência de trade marketing",
+    "from": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "toName": "Implantação de operação de trade marketing",
+    "to": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "anchor": "implantação de operação de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Transição de agência de trade marketing",
+    "from": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de transição de agência de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Conformidade trabalhista na terceirização",
+    "to": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "anchor": "conformidade trabalhista na terceirização",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Conformidade trabalhista na terceirização",
+    "from": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "metodologia de execução no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Conformidade trabalhista na terceirização",
+    "from": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "toName": "Segurança de dados",
+    "to": "/como-trabalhamos/seguranca-de-dados/",
+    "anchor": "segurança de dados",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Conformidade trabalhista na terceirização",
+    "from": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "toName": "Transição de agência de trade marketing",
+    "to": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "anchor": "transição de agência de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Conformidade trabalhista na terceirização",
+    "from": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de conformidade trabalhista na terceirização",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Segurança de dados",
+    "to": "/como-trabalhamos/seguranca-de-dados/",
+    "anchor": "segurança de dados",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Segurança de dados",
+    "from": "/como-trabalhamos/seguranca-de-dados/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "método de trabalho em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Segurança de dados",
+    "from": "/como-trabalhamos/seguranca-de-dados/",
+    "toName": "Tecnologia para trade marketing",
+    "to": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "anchor": "tecnologia para trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Segurança de dados",
+    "from": "/como-trabalhamos/seguranca-de-dados/",
+    "toName": "Conformidade trabalhista na terceirização",
+    "to": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "anchor": "conformidade trabalhista na terceirização",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Segurança de dados",
+    "from": "/como-trabalhamos/seguranca-de-dados/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de segurança de dados",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Tecnologia para trade marketing",
+    "to": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "anchor": "tecnologia para trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Tecnologia para trade marketing",
+    "from": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "metodologia de execução no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Tecnologia para trade marketing",
+    "from": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "quanto custa um promotor de vendas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Tecnologia para trade marketing",
+    "from": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "toName": "Segurança de dados",
+    "to": "/como-trabalhamos/seguranca-de-dados/",
+    "anchor": "segurança de dados",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Tecnologia para trade marketing",
+    "from": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de tecnologia para trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "quanto custa um promotor de vendas",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Quanto custa um promotor de vendas",
+    "from": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "método de trabalho em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Quanto custa um promotor de vendas",
+    "from": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "toName": "Operação piloto de trade marketing",
+    "to": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "anchor": "operação piloto de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Quanto custa um promotor de vendas",
+    "from": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "toName": "Tecnologia para trade marketing",
+    "to": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "anchor": "tecnologia para trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Quanto custa um promotor de vendas",
+    "from": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de quanto custa um promotor de vendas",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Como trabalhamos",
+    "from": "/como-trabalhamos/",
+    "toName": "Operação piloto de trade marketing",
+    "to": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "anchor": "operação piloto de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Operação piloto de trade marketing",
+    "from": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "metodologia de execução no PDV",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Operação piloto de trade marketing",
+    "from": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "comprovação da execução no PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Operação piloto de trade marketing",
+    "from": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "quanto custa um promotor de vendas",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Operação piloto de trade marketing",
+    "from": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de operação piloto de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "como trabalhamos",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Guias de decisão",
+    "from": "/guias-de-decisao/",
+    "toName": "Promotor exclusivo ou compartilhado",
+    "to": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "anchor": "promotor exclusivo ou compartilhado",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotor exclusivo ou compartilhado",
+    "from": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "comparativos de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotor exclusivo ou compartilhado",
+    "from": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "toName": "Equipe própria ou terceirizada",
+    "to": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "anchor": "equipe própria ou terceirizada",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor exclusivo ou compartilhado",
+    "from": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "toName": "Auditoria de PDV ou promotor",
+    "to": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "anchor": "auditoria de PDV ou promotor",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor exclusivo ou compartilhado",
+    "from": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotor exclusivo ou compartilhado",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Guias de decisão",
+    "from": "/guias-de-decisao/",
+    "toName": "Equipe própria ou terceirizada",
+    "to": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "anchor": "equipe própria ou terceirizada",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Equipe própria ou terceirizada",
+    "from": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "como decidir em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Equipe própria ou terceirizada",
+    "from": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "toName": "Como escolher agência de trade marketing",
+    "to": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "anchor": "como escolher agência de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Equipe própria ou terceirizada",
+    "from": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "toName": "Promotor exclusivo ou compartilhado",
+    "to": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "anchor": "promotor exclusivo ou compartilhado",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Equipe própria ou terceirizada",
+    "from": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de equipe própria ou terceirizada",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Guias de decisão",
+    "from": "/guias-de-decisao/",
+    "toName": "Como escolher agência de trade marketing",
+    "to": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "anchor": "como escolher agência de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Como escolher agência de trade marketing",
+    "from": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "comparativos de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Como escolher agência de trade marketing",
+    "from": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "toName": "Agência de trade marketing ou distribuidor",
+    "to": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "anchor": "agência de trade marketing ou distribuidor",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Como escolher agência de trade marketing",
+    "from": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "toName": "Equipe própria ou terceirizada",
+    "to": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "anchor": "equipe própria ou terceirizada",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Como escolher agência de trade marketing",
+    "from": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de como escolher agência de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Guias de decisão",
+    "from": "/guias-de-decisao/",
+    "toName": "Agência de trade marketing ou distribuidor",
+    "to": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "anchor": "agência de trade marketing ou distribuidor",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Agência de trade marketing ou distribuidor",
+    "from": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "como decidir em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Agência de trade marketing ou distribuidor",
+    "from": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "toName": "Promotor fixo ou roteirista",
+    "to": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "anchor": "promotor fixo ou roteirista",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Agência de trade marketing ou distribuidor",
+    "from": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "toName": "Como escolher agência de trade marketing",
+    "to": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "anchor": "como escolher agência de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Agência de trade marketing ou distribuidor",
+    "from": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de agência de trade marketing ou distribuidor",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Guias de decisão",
+    "from": "/guias-de-decisao/",
+    "toName": "Promotor fixo ou roteirista",
+    "to": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "anchor": "promotor fixo ou roteirista",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Promotor fixo ou roteirista",
+    "from": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "comparativos de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Promotor fixo ou roteirista",
+    "from": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "toName": "Auditoria de PDV ou promotor",
+    "to": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "anchor": "auditoria de PDV ou promotor",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor fixo ou roteirista",
+    "from": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "toName": "Agência de trade marketing ou distribuidor",
+    "to": "/guias-de-decisao/agencia-de-trade-marketing-ou-distribuidor/",
+    "anchor": "agência de trade marketing ou distribuidor",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Promotor fixo ou roteirista",
+    "from": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de promotor fixo ou roteirista",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Guias de decisão",
+    "from": "/guias-de-decisao/",
+    "toName": "Auditoria de PDV ou promotor",
+    "to": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "anchor": "auditoria de PDV ou promotor",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Auditoria de PDV ou promotor",
+    "from": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "como decidir em trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Auditoria de PDV ou promotor",
+    "from": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "toName": "Promotor exclusivo ou compartilhado",
+    "to": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "anchor": "promotor exclusivo ou compartilhado",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de PDV ou promotor",
+    "from": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "toName": "Promotor fixo ou roteirista",
+    "to": "/guias-de-decisao/promotor-fixo-ou-roteirista/",
+    "anchor": "promotor fixo ou roteirista",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Auditoria de PDV ou promotor",
+    "from": "/guias-de-decisao/auditoria-de-pdv-ou-promotor/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de auditoria de pdv ou promotor",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Guias de decisão",
+    "to": "/guias-de-decisao/",
+    "anchor": "guias de decisão",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Materiais de trade marketing",
+    "from": "/materiais/",
+    "toName": "Checklist de agência de trade marketing",
+    "to": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "anchor": "checklist de agência de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Checklist de agência de trade marketing",
+    "from": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "toName": "Materiais de trade marketing",
+    "to": "/materiais/",
+    "anchor": "modelos de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Checklist de agência de trade marketing",
+    "from": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "toName": "Planilha de custo de promotores",
+    "to": "/materiais/planilha-de-custo-de-promotores/",
+    "anchor": "planilha de custo de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Checklist de agência de trade marketing",
+    "from": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "toName": "Modelo de relatório de trade marketing",
+    "to": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "anchor": "modelo de relatório de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Checklist de agência de trade marketing",
+    "from": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de checklist de agência de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Materiais de trade marketing",
+    "from": "/materiais/",
+    "toName": "Planilha de custo de promotores",
+    "to": "/materiais/planilha-de-custo-de-promotores/",
+    "anchor": "planilha de custo de promotores",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Planilha de custo de promotores",
+    "from": "/materiais/planilha-de-custo-de-promotores/",
+    "toName": "Materiais de trade marketing",
+    "to": "/materiais/",
+    "anchor": "ferramentas gratuitas de trade",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Planilha de custo de promotores",
+    "from": "/materiais/planilha-de-custo-de-promotores/",
+    "toName": "Checklist de execução no PDV",
+    "to": "/materiais/checklist-de-execucao-no-pdv/",
+    "anchor": "checklist de execução no PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Planilha de custo de promotores",
+    "from": "/materiais/planilha-de-custo-de-promotores/",
+    "toName": "Checklist de agência de trade marketing",
+    "to": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "anchor": "checklist de agência de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Planilha de custo de promotores",
+    "from": "/materiais/planilha-de-custo-de-promotores/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de planilha de custo de promotores",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Materiais de trade marketing",
+    "from": "/materiais/",
+    "toName": "Checklist de execução no PDV",
+    "to": "/materiais/checklist-de-execucao-no-pdv/",
+    "anchor": "checklist de execução no PDV",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Checklist de execução no PDV",
+    "from": "/materiais/checklist-de-execucao-no-pdv/",
+    "toName": "Materiais de trade marketing",
+    "to": "/materiais/",
+    "anchor": "modelos de trade marketing",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Checklist de execução no PDV",
+    "from": "/materiais/checklist-de-execucao-no-pdv/",
+    "toName": "Modelo de relatório de trade marketing",
+    "to": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "anchor": "modelo de relatório de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Checklist de execução no PDV",
+    "from": "/materiais/checklist-de-execucao-no-pdv/",
+    "toName": "Planilha de custo de promotores",
+    "to": "/materiais/planilha-de-custo-de-promotores/",
+    "anchor": "planilha de custo de promotores",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Checklist de execução no PDV",
+    "from": "/materiais/checklist-de-execucao-no-pdv/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de checklist de execução no pdv",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Materiais de trade marketing",
+    "from": "/materiais/",
+    "toName": "Modelo de relatório de trade marketing",
+    "to": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "anchor": "modelo de relatório de trade marketing",
+    "kind": "Hierárquico: hub para página"
+  },
+  {
+    "fromName": "Modelo de relatório de trade marketing",
+    "from": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "toName": "Materiais de trade marketing",
+    "to": "/materiais/",
+    "anchor": "ferramentas gratuitas de trade",
+    "kind": "Hierárquico: página para hub"
+  },
+  {
+    "fromName": "Modelo de relatório de trade marketing",
+    "from": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "toName": "Checklist de agência de trade marketing",
+    "to": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "anchor": "checklist de agência de trade marketing",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Modelo de relatório de trade marketing",
+    "from": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "toName": "Checklist de execução no PDV",
+    "to": "/materiais/checklist-de-execucao-no-pdv/",
+    "anchor": "checklist de execução no PDV",
+    "kind": "Lateral: página vizinha"
+  },
+  {
+    "fromName": "Modelo de relatório de trade marketing",
+    "from": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "toName": "Solicitar orçamento",
+    "to": "/solicitar-orcamento/",
+    "anchor": "solicitar orçamento de modelo de relatório de trade marketing",
+    "kind": "Conversão"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Materiais de trade marketing",
+    "to": "/materiais/",
+    "anchor": "materiais de trade marketing",
+    "kind": "Hierárquico: home para hub"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Promotor exclusivo ou compartilhado",
+    "to": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "anchor": "compare promotor exclusivo e compartilhado",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Promotor exclusivo",
+    "from": "/promotores-de-vendas/promotor-exclusivo/",
+    "toName": "Promotor exclusivo ou compartilhado",
+    "to": "/guias-de-decisao/promotor-exclusivo-ou-compartilhado/",
+    "anchor": "quando escolher cada modelo de promotor",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "quanto custa um promotor compartilhado",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Promotor compartilhado",
+    "from": "/promotores-de-vendas/promotor-compartilhado/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "como comprovamos cada visita",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Equipe própria ou terceirizada",
+    "to": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "anchor": "compare equipe própria e terceirizada",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Conformidade trabalhista na terceirização",
+    "to": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "anchor": "como evitamos risco trabalhista",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Terceirização de promotores",
+    "from": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "toName": "Terceirização de trade marketing",
+    "to": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "anchor": "terceirizar toda a operação de trade",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Terceirização de trade marketing",
+    "from": "/consultoria-de-trade-marketing/terceirizacao-de-trade-marketing/",
+    "toName": "Terceirização de promotores",
+    "to": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "anchor": "terceirizar apenas a equipe de campo",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Montagem de pontos extras",
+    "from": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "toName": "Auditoria de acordos comerciais",
+    "to": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "anchor": "confira se o ponto extra pago foi montado",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Auditoria de acordos comerciais",
+    "from": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "toName": "Gestão de acordos comerciais",
+    "to": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "anchor": "gestão dos acordos com as redes",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Gestão de acordos comerciais",
+    "from": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "toName": "Auditoria de acordos comerciais",
+    "to": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "anchor": "auditoria independente dos acordos",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Reposição de produtos",
+    "from": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "toName": "Auditoria de ruptura",
+    "to": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "anchor": "medir a ruptura antes de agir",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Auditoria de ruptura",
+    "from": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "toName": "Reposição de produtos",
+    "to": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "anchor": "resolver a ruptura com reposição",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Relatórios de trade marketing",
+    "from": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "como os dados são comprovados",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Relatórios de trade marketing",
+    "from": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "toName": "Modelo de relatório de trade marketing",
+    "to": "/materiais/modelo-de-relatorio-de-trade-marketing/",
+    "anchor": "baixe um modelo de relatório",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Auditoria de preços",
+    "from": "/auditoria-de-pdv/auditoria-de-precos/",
+    "toName": "Pesquisa de preços",
+    "to": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "anchor": "pesquisa de preços da concorrência",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Pesquisa de preços",
+    "from": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "toName": "Auditoria de preços",
+    "to": "/auditoria-de-pdv/auditoria-de-precos/",
+    "anchor": "auditoria do preço praticado pela sua marca",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Instalação de material de PDV",
+    "to": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "anchor": "instalação de materiais do lançamento",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Lançamento de produtos",
+    "from": "/lancamento-de-produtos/",
+    "toName": "Promotor temporário",
+    "to": "/promotores-de-vendas/promotor-temporario/",
+    "anchor": "equipe temporária para o lançamento",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Ações de Páscoa",
+    "from": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "toName": "Promotor temporário",
+    "to": "/promotores-de-vendas/promotor-temporario/",
+    "anchor": "promotores temporários para a Páscoa",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Ações de Natal",
+    "from": "/lancamento-de-produtos/acoes-de-natal/",
+    "toName": "Promotor temporário",
+    "to": "/promotores-de-vendas/promotor-temporario/",
+    "anchor": "reforço de equipe no Natal",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Ações de verão",
+    "from": "/lancamento-de-produtos/acoes-de-verao/",
+    "toName": "Gestão de geladeiras em comodato",
+    "to": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "anchor": "geladeiras abastecidas e puras no verão",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Gestão de geladeiras em comodato",
+    "from": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "toName": "Auditoria de equipamentos",
+    "to": "/auditoria-de-pdv/auditoria-de-equipamentos/",
+    "anchor": "auditoria dos equipamentos em comodato",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para bebidas",
+    "from": "/setores/trade-marketing-para-bebidas/",
+    "toName": "Gestão de geladeiras em comodato",
+    "to": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "anchor": "gestão de geladeiras em comodato",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para bebidas",
+    "from": "/setores/trade-marketing-para-bebidas/",
+    "toName": "Ações de verão",
+    "to": "/lancamento-de-produtos/acoes-de-verao/",
+    "anchor": "execução no pico do verão",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para laticínios",
+    "from": "/setores/trade-marketing-para-laticinios/",
+    "toName": "Controle de validade",
+    "to": "/merchandising-no-pdv/controle-de-validade/",
+    "anchor": "controle de validade e trocas",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para alimentos",
+    "from": "/setores/trade-marketing-para-alimentos/",
+    "toName": "Reposição de produtos",
+    "to": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "anchor": "reposição que evita ruptura",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para alimentos",
+    "from": "/setores/trade-marketing-para-alimentos/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "pontos extras em supermercados",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para cosméticos",
+    "from": "/setores/trade-marketing-para-cosmeticos/",
+    "toName": "Promotora de beleza",
+    "to": "/promotores-de-vendas/promotora-de-beleza/",
+    "anchor": "promotoras de beleza e dermoconsultoras",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing farmacêutico",
+    "from": "/setores/trade-marketing-farmaceutico/",
+    "toName": "Merchandising em farmácias",
+    "to": "/canais/merchandising-em-farmacias/",
+    "anchor": "execução em redes de farmácias",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing farmacêutico",
+    "from": "/setores/trade-marketing-farmaceutico/",
+    "toName": "Treinamento de balconistas",
+    "to": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "anchor": "treinamento de balconistas",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Promotora de beleza",
+    "from": "/promotores-de-vendas/promotora-de-beleza/",
+    "toName": "Trade marketing para cosméticos",
+    "to": "/setores/trade-marketing-para-cosmeticos/",
+    "anchor": "estratégia de trade para cosméticos",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Promotor técnico",
+    "from": "/promotores-de-vendas/promotor-tecnico/",
+    "toName": "Trade marketing para material de construção",
+    "to": "/setores/trade-marketing-para-material-de-construcao/",
+    "anchor": "trade marketing para material de construção",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Promotor técnico",
+    "from": "/promotores-de-vendas/promotor-tecnico/",
+    "toName": "Merchandising em home centers",
+    "to": "/canais/merchandising-em-home-centers/",
+    "anchor": "execução em home centers",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para produtos de limpeza",
+    "from": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "montagem de pilhas e pontos extras",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Trade marketing para pet",
+    "from": "/setores/trade-marketing-para-pet/",
+    "toName": "Merchandising em pet shops",
+    "to": "/canais/merchandising-em-pet-shops/",
+    "anchor": "cobertura de pet shops",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Merchandising em atacarejos",
+    "from": "/canais/merchandising-em-atacarejos/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "pilhas em atacarejo",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Merchandising em supermercados",
+    "from": "/canais/merchandising-em-supermercados/",
+    "toName": "Execução de planograma",
+    "to": "/merchandising-no-pdv/execucao-de-planograma/",
+    "anchor": "execução de planograma",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Degustação em supermercados",
+    "from": "/live-marketing/degustacao-em-supermercados/",
+    "toName": "Distribuição de amostras",
+    "to": "/live-marketing/distribuicao-de-amostras/",
+    "anchor": "distribuição de amostras",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Como escolher agência de trade marketing",
+    "from": "/guias-de-decisao/como-escolher-agencia-de-trade-marketing/",
+    "toName": "Checklist de agência de trade marketing",
+    "to": "/materiais/checklist-de-agencia-de-trade-marketing/",
+    "anchor": "checklist para comparar agências",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Equipe própria ou terceirizada",
+    "from": "/guias-de-decisao/equipe-propria-ou-terceirizada/",
+    "toName": "Planilha de custo de promotores",
+    "to": "/materiais/planilha-de-custo-de-promotores/",
+    "anchor": "planilha para calcular o custo",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Quanto custa um promotor de vendas",
+    "from": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "toName": "Planilha de custo de promotores",
+    "to": "/materiais/planilha-de-custo-de-promotores/",
+    "anchor": "calcule o custo da sua equipe",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Transição de agência de trade marketing",
+    "from": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "toName": "Operação piloto de trade marketing",
+    "to": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "anchor": "comece com uma operação piloto",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Cobertura nacional",
+    "from": "/cobertura-nacional/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "promotor compartilhado em qualquer estado",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Diagnóstico de trade marketing",
+    "from": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "toName": "Auditoria de execução",
+    "to": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "anchor": "auditoria da execução atual",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Planejamento de trade marketing",
+    "from": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "calendário de lançamentos e ações sazonais",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Sobre a Turbo Trade Marketing",
+    "from": "/sobre/",
+    "toName": "Cases de trade marketing",
+    "to": "/cases/",
+    "anchor": "resultados de clientes",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Sobre a Turbo Trade Marketing",
+    "from": "/sobre/",
+    "toName": "Como trabalhamos",
+    "to": "/como-trabalhamos/",
+    "anchor": "nosso método de trabalho",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Sobre a Turbo Trade Marketing",
+    "to": "/sobre/",
+    "anchor": "conheça a Turbo Trade Marketing",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Cobertura nacional",
+    "to": "/cobertura-nacional/",
+    "anchor": "cobertura em todo o Brasil",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Home",
+    "from": "/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "execução comprovada loja a loja",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "Perguntas frequentes",
+    "from": "/perguntas-frequentes/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "fatores que definem o preço",
+    "kind": "Contextual"
+  },
+  {
+    "fromName": "O que é trade marketing e como ele funciona na indústria",
+    "from": "/blog/o-que-e-trade-marketing/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "o que é trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Trade marketing e merchandising: qual é a diferença",
+    "from": "/blog/diferenca-entre-trade-marketing-e-merchandising/",
+    "toName": "Merchandising no PDV",
+    "to": "/merchandising-no-pdv/",
+    "anchor": "diferença entre trade marketing e merchandising",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "O que faz um promotor de vendas no ponto de venda",
+    "from": "/blog/o-que-faz-um-promotor-de-vendas/",
+    "toName": "Promotores de vendas",
+    "to": "/promotores-de-vendas/",
+    "anchor": "o que faz um promotor de vendas",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Promotor, repositor e demonstrador: diferenças entre as funções",
+    "from": "/blog/diferenca-entre-promotor-e-repositor/",
+    "toName": "Repositor terceirizado",
+    "to": "/promotores-de-vendas/repositor-terceirizado/",
+    "anchor": "diferença entre promotor e repositor",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como reduzir a ruptura no ponto de venda",
+    "from": "/blog/como-reduzir-ruptura/",
+    "toName": "Reposição de produtos",
+    "to": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "anchor": "como reduzir ruptura",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Ruptura com estoque: por que a gôndola fica vazia com produto no depósito",
+    "from": "/blog/ruptura-com-estoque/",
+    "toName": "Auditoria de ruptura",
+    "to": "/auditoria-de-pdv/auditoria-de-ruptura/",
+    "anchor": "ruptura com estoque",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "O que é planograma e como fazer a loja segui-lo",
+    "from": "/blog/o-que-e-planograma/",
+    "toName": "Execução de planograma",
+    "to": "/merchandising-no-pdv/execucao-de-planograma/",
+    "anchor": "o que é planograma",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "O que é ponto extra no supermercado e como negociá-lo",
+    "from": "/blog/o-que-e-ponto-extra/",
+    "toName": "Montagem de pontos extras",
+    "to": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "anchor": "o que é ponto extra",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Sell-in e sell-out: diferença e por que a venda para a rede não basta",
+    "from": "/blog/sell-in-e-sell-out/",
+    "toName": "Análise de sell-out",
+    "to": "/inteligencia-de-mercado/analise-de-sell-out/",
+    "anchor": "sell-in e sell-out",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Indicadores de trade marketing que a diretoria quer ver",
+    "from": "/blog/indicadores-de-trade-marketing/",
+    "toName": "Relatórios de trade marketing",
+    "to": "/inteligencia-de-mercado/relatorios-de-trade-marketing/",
+    "anchor": "indicadores de trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como medir a execução no PDV",
+    "from": "/blog/como-medir-a-execucao-no-pdv/",
+    "toName": "Auditoria de execução",
+    "to": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "anchor": "como medir a execução no PDV",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Foto de gôndola não é prova de execução: o que é",
+    "from": "/blog/foto-de-gondola-como-prova-de-execucao/",
+    "toName": "Comprovação da execução no PDV",
+    "to": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "anchor": "foto de gôndola como prova de execução",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Frequência de visita ideal: quantas vezes o promotor deve ir à loja",
+    "from": "/blog/frequencia-de-visita-de-promotor/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "frequência de visita de promotor",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como funciona o credenciamento de promotores nas grandes redes",
+    "from": "/blog/credenciamento-de-promotores/",
+    "toName": "Redes atendidas",
+    "to": "/redes-atendidas/",
+    "anchor": "credenciamento de promotores",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Terceirização de promotores: o que diz a lei",
+    "from": "/blog/terceirizacao-de-promotores-lei/",
+    "toName": "Conformidade trabalhista na terceirização",
+    "to": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "anchor": "terceirização de promotores lei",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Posso dar ordens ao promotor terceirizado?",
+    "from": "/blog/ordens-ao-promotor-terceirizado/",
+    "toName": "Conformidade trabalhista na terceirização",
+    "to": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "anchor": "ordens ao promotor terceirizado",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Fim da escala 6x1: o que muda para o trade marketing",
+    "from": "/blog/fim-da-escala-6x1-trade-marketing/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "fim da escala 6x1 trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Reforma tributária e contratos de trade marketing",
+    "from": "/blog/reforma-tributaria-servicos-de-trade-marketing/",
+    "toName": "Quanto custa um promotor de vendas",
+    "to": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "anchor": "reforma tributária serviços de trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como garantir a execução dos acordos comerciais com as redes",
+    "from": "/blog/execucao-de-acordos-comerciais/",
+    "toName": "Auditoria de acordos comerciais",
+    "to": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "anchor": "execução de acordos comerciais",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como provar o retorno do investimento em trade marketing",
+    "from": "/blog/roi-de-trade-marketing/",
+    "toName": "Diagnóstico de trade marketing",
+    "to": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "anchor": "ROI de trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como montar o orçamento de trade marketing do próximo ano",
+    "from": "/blog/orcamento-de-trade-marketing/",
+    "toName": "Planejamento de trade marketing",
+    "to": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "anchor": "orçamento de trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Calendário promocional do varejo: datas para planejar o trade",
+    "from": "/blog/calendario-promocional-do-varejo/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "calendário promocional do varejo",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Com quanta antecedência planejar a Páscoa no PDV",
+    "from": "/blog/planejamento-de-pascoa-no-varejo/",
+    "toName": "Ações de Páscoa",
+    "to": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "anchor": "planejamento de Páscoa no varejo",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como lançar um produto em várias regiões no mesmo dia",
+    "from": "/blog/lancamento-de-produto-em-varias-regioes/",
+    "toName": "Lançamento de produtos",
+    "to": "/lancamento-de-produtos/",
+    "anchor": "lançamento de produto em várias regiões",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Material de PDV que não sai do depósito: como evitar",
+    "from": "/blog/material-de-pdv-nao-instalado/",
+    "toName": "Instalação de material de PDV",
+    "to": "/merchandising-no-pdv/instalacao-de-material-de-pdv/",
+    "anchor": "material de PDV não instalado",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Geladeira em comodato com produto do concorrente: como resolver",
+    "from": "/blog/pureza-de-geladeira/",
+    "toName": "Gestão de geladeiras em comodato",
+    "to": "/merchandising-no-pdv/gestao-de-geladeiras-em-comodato/",
+    "anchor": "pureza de geladeira",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como reduzir perdas e trocas de perecíveis no varejo",
+    "from": "/blog/como-reduzir-trocas-no-varejo/",
+    "toName": "Controle de validade",
+    "to": "/merchandising-no-pdv/controle-de-validade/",
+    "anchor": "como reduzir trocas no varejo",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Rotatividade de promotores: como reduzir e manter a qualidade",
+    "from": "/blog/rotatividade-de-promotores/",
+    "toName": "Supervisão de promotores",
+    "to": "/promotores-de-vendas/supervisao-de-promotores/",
+    "anchor": "rotatividade de promotores",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Sinais de que a sua agência de trade marketing não está funcionando",
+    "from": "/blog/agencia-de-trade-marketing-ruim/",
+    "toName": "Transição de agência de trade marketing",
+    "to": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "anchor": "agência de trade marketing ruim",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como reduzir custos de trade marketing sem perder execução",
+    "from": "/blog/reduzir-custos-de-trade-marketing/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "reduzir custos de trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Positivação: o que é e como aumentar",
+    "from": "/blog/o-que-e-positivacao/",
+    "toName": "Pesquisa de distribuição",
+    "to": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "anchor": "o que é positivação",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Share de gôndola: o que é e como aumentar",
+    "from": "/blog/share-de-gondola/",
+    "toName": "Execução de planograma",
+    "to": "/merchandising-no-pdv/execucao-de-planograma/",
+    "anchor": "share de gôndola",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Trade marketing para indústria pequena: por onde começar",
+    "from": "/blog/trade-marketing-para-pequenas-empresas/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "trade marketing para pequenas empresas",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "A rede exige promotor: o que fazer",
+    "from": "/blog/supermercado-exige-promotor/",
+    "toName": "Promotor compartilhado",
+    "to": "/promotores-de-vendas/promotor-compartilhado/",
+    "anchor": "supermercado exige promotor",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como negociar com o comprador de supermercado usando dados",
+    "from": "/blog/como-negociar-com-comprador-de-supermercado/",
+    "toName": "Gestão de acordos comerciais",
+    "to": "/consultoria-de-trade-marketing/gestao-de-acordos-comerciais/",
+    "anchor": "como negociar com comprador de supermercado",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Loja perfeita: como definir o padrão de execução da sua marca",
+    "from": "/blog/loja-perfeita/",
+    "toName": "Auditoria de execução",
+    "to": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "anchor": "loja perfeita",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Live marketing e trade marketing: diferenças e quando usar",
+    "from": "/blog/diferenca-entre-live-marketing-e-trade-marketing/",
+    "toName": "Live marketing",
+    "to": "/live-marketing/",
+    "anchor": "diferença entre live marketing e trade marketing",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Como medir o resultado de uma degustação",
+    "from": "/blog/resultado-de-degustacao/",
+    "toName": "Degustação em supermercados",
+    "to": "/live-marketing/degustacao-em-supermercados/",
+    "anchor": "resultado de degustação",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Retail media: o que é e como usar no trade marketing",
+    "from": "/blog/retail-media/",
+    "toName": "Trade marketing digital",
+    "to": "/inteligencia-de-mercado/trade-marketing-digital/",
+    "anchor": "retail media",
+    "kind": "Artigo para serviço"
+  },
+  {
+    "fromName": "Tendências de trade marketing para 2027",
+    "from": "/blog/tendencias-de-trade-marketing/",
+    "toName": "Consultoria de trade marketing",
+    "to": "/consultoria-de-trade-marketing/",
+    "anchor": "tendências de trade marketing",
+    "kind": "Artigo para serviço"
+  }
+]

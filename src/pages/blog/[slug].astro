@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import PagePlaceholder from '../../components/PagePlaceholder.astro';
+import { articles, getPage } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return articles.map((a) => ({ params: { slug: a.url.split('/').filter(Boolean).pop() }, props: { url: a.url } }));
+}
+
+const page = getPage(Astro.props.url);
+---
+<Base page={page}>
+  <PagePlaceholder page={page} />
+</Base>

@@ -1,0 +1,23 @@
+---
+// Dados estruturados por tipo de página (aba Regras da planilha).
+import { SITE_NAME } from '../lib/site.js';
+
+const { page } = Astro.props;
+const site = Astro.site.href;
+const url = new URL(page.url, Astro.site).href;
+const org = { '@type': 'Organization', '@id': `${site}#organization`, name: SITE_NAME, url: site };
+
+const serviceTypes = ['Hub de serviço', 'Página de serviço', 'Página de setor', 'Página de canal', 'Página de rede', 'Página regional'];
+let data = null;
+if (page.url === '/' || page.url === '/sobre/') {
+  data = { '@context': 'https://schema.org', ...org };
+} else if (serviceTypes.includes(page.type)) {
+  data = { '@context': 'https://schema.org', '@type': 'Service', name: page.name, serviceType: page.keyword, url, provider: { '@id': org['@id'] }, areaServed: 'BR' };
+} else if (page.type === 'Artigo') {
+  data = { '@context': 'https://schema.org', '@type': 'Article', headline: page.name, url, publisher: { '@id': org['@id'] }, inLanguage: 'pt-BR' };
+} else if (page.url === '/glossario-de-trade-marketing/') {
+  data = { '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: page.name, url };
+}
+// FAQPage entra quando os blocos de perguntas tiverem conteúdo.
+---
+{data && <script type="application/ld+json" set:html={JSON.stringify(data)} />}

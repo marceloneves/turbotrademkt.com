@@ -1,0 +1,814 @@
+[
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Serviços",
+    "url": "",
+    "note": "Mega menu em grade 4 por 2 com os 8 hubs"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Promotores de vendas",
+    "url": "/promotores-de-vendas/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Promotor compartilhado",
+    "url": "/promotores-de-vendas/promotor-compartilhado/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Promotor exclusivo",
+    "url": "/promotores-de-vendas/promotor-exclusivo/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Terceirização de promotores",
+    "url": "/promotores-de-vendas/terceirizacao-de-promotores/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de promotores de vendas",
+    "url": "/promotores-de-vendas/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Merchandising no PDV",
+    "url": "/merchandising-no-pdv/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Execução de planograma",
+    "url": "/merchandising-no-pdv/execucao-de-planograma/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Reposição de produtos",
+    "url": "/merchandising-no-pdv/reposicao-de-produtos/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Montagem de pontos extras",
+    "url": "/merchandising-no-pdv/montagem-de-pontos-extras/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de merchandising no pdv",
+    "url": "/merchandising-no-pdv/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Auditoria de PDV",
+    "url": "/auditoria-de-pdv/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Auditoria de execução",
+    "url": "/auditoria-de-pdv/auditoria-de-execucao/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Auditoria de acordos comerciais",
+    "url": "/auditoria-de-pdv/auditoria-de-acordos-comerciais/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Auditoria de preços",
+    "url": "/auditoria-de-pdv/auditoria-de-precos/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de auditoria de pdv",
+    "url": "/auditoria-de-pdv/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Inteligência de mercado",
+    "url": "/inteligencia-de-mercado/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Pesquisa de preços",
+    "url": "/inteligencia-de-mercado/pesquisa-de-precos/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Mapeamento de PDV",
+    "url": "/inteligencia-de-mercado/mapeamento-de-pdv/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Pesquisa de distribuição",
+    "url": "/inteligencia-de-mercado/pesquisa-de-distribuicao/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de inteligência de mercado",
+    "url": "/inteligencia-de-mercado/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Consultoria de trade marketing",
+    "url": "/consultoria-de-trade-marketing/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Diagnóstico de trade marketing",
+    "url": "/consultoria-de-trade-marketing/diagnostico-de-trade-marketing/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Planejamento de trade marketing",
+    "url": "/consultoria-de-trade-marketing/planejamento-de-trade-marketing/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Gerenciamento por categoria",
+    "url": "/consultoria-de-trade-marketing/gerenciamento-por-categoria/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de consultoria de trade marketing",
+    "url": "/consultoria-de-trade-marketing/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Lançamentos e ações sazonais",
+    "url": "/lancamento-de-produtos/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ações de Páscoa",
+    "url": "/lancamento-de-produtos/acoes-de-pascoa/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ações de Natal",
+    "url": "/lancamento-de-produtos/acoes-de-natal/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ações em datas comemorativas",
+    "url": "/lancamento-de-produtos/acoes-em-datas-comemorativas/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de lançamentos",
+    "url": "/lancamento-de-produtos/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Live marketing",
+    "url": "/live-marketing/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Degustação em supermercados",
+    "url": "/live-marketing/degustacao-em-supermercados/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Demonstração de produtos",
+    "url": "/live-marketing/demonstracao-de-produtos/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Distribuição de amostras",
+    "url": "/live-marketing/distribuicao-de-amostras/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de live marketing",
+    "url": "/live-marketing/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Treinamento de equipes de varejo",
+    "url": "/treinamento-de-equipes-de-varejo/",
+    "note": "Título da coluna no mega menu"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Treinamento de promotores",
+    "url": "/treinamento-de-equipes-de-varejo/treinamento-de-promotores/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Treinamento de vendedores do varejo",
+    "url": "/treinamento-de-equipes-de-varejo/treinamento-de-vendedores-do-varejo/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Treinamento de balconistas",
+    "url": "/treinamento-de-equipes-de-varejo/treinamento-de-balconistas/",
+    "note": "Link de destaque dentro da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Ver todos os serviços de treinamento de equipes de varejo",
+    "url": "/treinamento-de-equipes-de-varejo/",
+    "note": "Link para o hub"
+  },
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Soluções",
+    "url": "",
+    "note": "Mega menu com quatro colunas"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Por setor",
+    "url": "/setores/",
+    "note": "Título da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para alimentos",
+    "url": "/setores/trade-marketing-para-alimentos/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para bebidas",
+    "url": "/setores/trade-marketing-para-bebidas/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para laticínios",
+    "url": "/setores/trade-marketing-para-laticinios/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para cosméticos",
+    "url": "/setores/trade-marketing-para-cosmeticos/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para produtos de limpeza",
+    "url": "/setores/trade-marketing-para-produtos-de-limpeza/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para pet",
+    "url": "/setores/trade-marketing-para-pet/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing farmacêutico",
+    "url": "/setores/trade-marketing-farmaceutico/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing para material de construção",
+    "url": "/setores/trade-marketing-para-material-de-construcao/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Por canal",
+    "url": "/canais/",
+    "note": "Título da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising em supermercados",
+    "url": "/canais/merchandising-em-supermercados/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising em atacarejos",
+    "url": "/canais/merchandising-em-atacarejos/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising em farmácias",
+    "url": "/canais/merchandising-em-farmacias/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising em home centers",
+    "url": "/canais/merchandising-em-home-centers/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising em pet shops",
+    "url": "/canais/merchandising-em-pet-shops/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no varejo tradicional",
+    "url": "/canais/merchandising-no-varejo-tradicional/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Por rede",
+    "url": "/redes-atendidas/",
+    "note": "Título da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no Carrefour",
+    "url": "/redes-atendidas/merchandising-no-carrefour/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no Atacadão",
+    "url": "/redes-atendidas/merchandising-no-atacadao/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no Assaí",
+    "url": "/redes-atendidas/merchandising-no-assai/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no Grupo Mateus",
+    "url": "/redes-atendidas/merchandising-no-grupo-mateus/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no Supermercados BH",
+    "url": "/redes-atendidas/merchandising-no-supermercados-bh/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Merchandising no GPA",
+    "url": "/redes-atendidas/merchandising-no-gpa/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Por região",
+    "url": "/cobertura-nacional/",
+    "note": "Título da coluna"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing no Nordeste",
+    "url": "/cobertura-nacional/trade-marketing-no-nordeste/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing no Norte",
+    "url": "/cobertura-nacional/trade-marketing-no-norte/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing no Centro-Oeste",
+    "url": "/cobertura-nacional/trade-marketing-no-centro-oeste/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing no Sudeste",
+    "url": "/cobertura-nacional/trade-marketing-no-sudeste/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 3,
+    "label": "Trade marketing no Sul",
+    "url": "/cobertura-nacional/trade-marketing-no-sul/",
+    "note": "Link (publicar só com operação real)"
+  },
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Como trabalhamos",
+    "url": "/como-trabalhamos/",
+    "note": "Menu suspenso"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Comprovação da execução no PDV",
+    "url": "/como-trabalhamos/comprovacao-da-execucao-no-pdv/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Implantação de operação de trade marketing",
+    "url": "/como-trabalhamos/implantacao-de-operacao-de-trade-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Transição de agência de trade marketing",
+    "url": "/como-trabalhamos/transicao-de-agencia-de-trade-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Conformidade trabalhista na terceirização",
+    "url": "/como-trabalhamos/conformidade-trabalhista-na-terceirizacao/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Segurança de dados",
+    "url": "/como-trabalhamos/seguranca-de-dados/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Tecnologia para trade marketing",
+    "url": "/como-trabalhamos/tecnologia-para-trade-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Quanto custa um promotor de vendas",
+    "url": "/como-trabalhamos/quanto-custa-um-promotor-de-vendas/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Operação piloto de trade marketing",
+    "url": "/como-trabalhamos/operacao-piloto-de-trade-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Cases",
+    "url": "/cases/",
+    "note": "Link direto"
+  },
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Conteúdos",
+    "url": "",
+    "note": "Menu suspenso"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Blog",
+    "url": "/blog/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Guias de decisão",
+    "url": "/guias-de-decisao/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Materiais para download",
+    "url": "/materiais/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Glossário de trade marketing",
+    "url": "/glossario-de-trade-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 2,
+    "label": "Perguntas frequentes",
+    "url": "/perguntas-frequentes/",
+    "note": "Link"
+  },
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Sobre",
+    "url": "/sobre/",
+    "note": "Link direto; página de referência da entidade"
+  },
+  {
+    "area": "Menu principal",
+    "level": 1,
+    "label": "Botão: Solicitar orçamento de trade marketing",
+    "url": "/solicitar-orcamento/",
+    "note": "Botão de destaque, sempre visível, inclusive no celular"
+  },
+  {
+    "area": "Rodapé",
+    "level": 1,
+    "label": "Serviços",
+    "url": "",
+    "note": "Coluna do rodapé"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Promotores de vendas",
+    "url": "/promotores-de-vendas/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Merchandising no PDV",
+    "url": "/merchandising-no-pdv/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Auditoria de PDV",
+    "url": "/auditoria-de-pdv/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Inteligência de mercado",
+    "url": "/inteligencia-de-mercado/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Consultoria de trade marketing",
+    "url": "/consultoria-de-trade-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Lançamento de produtos",
+    "url": "/lancamento-de-produtos/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Live marketing",
+    "url": "/live-marketing/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Treinamento de equipes de varejo",
+    "url": "/treinamento-de-equipes-de-varejo/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 1,
+    "label": "Soluções",
+    "url": "",
+    "note": "Coluna do rodapé"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Setores atendidos",
+    "url": "/setores/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Canais de venda",
+    "url": "/canais/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Redes atendidas",
+    "url": "/redes-atendidas/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Cobertura nacional",
+    "url": "/cobertura-nacional/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Guias de decisão",
+    "url": "/guias-de-decisao/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Materiais",
+    "url": "/materiais/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 1,
+    "label": "Empresa",
+    "url": "",
+    "note": "Coluna do rodapé"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Sobre a Turbo Trade Marketing",
+    "url": "/sobre/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Como trabalhamos",
+    "url": "/como-trabalhamos/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Cases",
+    "url": "/cases/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Blog",
+    "url": "/blog/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Perguntas frequentes",
+    "url": "/perguntas-frequentes/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Vagas para promotores",
+    "url": "/vagas/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 1,
+    "label": "Atendimento",
+    "url": "",
+    "note": "Coluna do rodapé"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Solicitar orçamento de trade marketing",
+    "url": "/solicitar-orcamento/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Política de privacidade",
+    "url": "/politica-de-privacidade/",
+    "note": "Link"
+  },
+  {
+    "area": "Rodapé",
+    "level": 2,
+    "label": "Razão social, CNPJ, endereço, telefone e WhatsApp",
+    "url": "",
+    "note": "Link"
+  }
+]
