@@ -84,14 +84,14 @@
    {
     "h2": "Recrutamento e seleção de promotores",
     "paragraphs": [
-     "O promotor de merchandising precisa conhecer o varejo da região e seguir o padrão da marca. Recrutamos e selecionamos perto das lojas atendidas, com treinamento sobre o seu produto antes da primeira visita. [VALIDAR: etapas do processo seletivo e treinamento]"
+     "O promotor de merchandising precisa conhecer o varejo da região e seguir o padrão da marca. O recrutamento de promotores é feito perto das lojas atendidas, com treinamento sobre o seu produto antes da primeira visita. [VALIDAR: etapas do processo seletivo e treinamento]"
     ],
     "bullets": []
    },
    {
     "h2": "Substituição de promotores e gestão de escalas",
     "paragraphs": [
-     "Falta e rotatividade derrubam a execução. Mantemos a gestão de escalas e a substituição de promotores quando alguém sai ou falta, para a loja não ficar descoberta. O roteiro do promotor roteirista é montado por frequência de visita e prioridade de loja. [VALIDAR: prazo de substituição]"
+     "Falta e rotatividade derrubam a execução. Mantemos a gestão de escalas de promotores e a substituição quando alguém sai ou falta, para a loja não ficar descoberta. O roteiro do promotor roteirista é montado por frequência de visita e prioridade de loja. [VALIDAR: prazo de substituição]"
     ],
     "bullets": []
    },
@@ -216,7 +216,7 @@
  },
  "/promotores-de-vendas/terceirizacao-de-promotores/": {
   "intro": [
-   "A terceirização de promotores transfere a equipe de campo da sua folha para uma agência, que passa a responder por contratação, encargos, escala, substituição e supervisão. Você mantém o controle da execução e deixa de gerenciar pessoas em vários estados.",
+   "A terceirização de promotores de vendas transfere a equipe de campo da sua folha para uma agência, que passa a responder por contratação, encargos, escala, substituição e supervisão. Você mantém o controle da execução e deixa de gerenciar pessoas em vários estados.",
    "Esta página fala do promotor terceirizado. Se você quer terceirizar toda a área de trade, incluindo planejamento e análise, veja Terceirização de trade marketing."
   ],
   "sections": [
@@ -571,6 +571,20 @@
     "bullets": []
    },
    {
+    "h2": "Logística de campo",
+    "paragraphs": [
+     "Além da execução na loja, a operação pode incluir serviços de logística de campo. [VALIDAR: confirmar quais destes serviços a Turbo Trade oferece; os que forem oferecidos podem virar seção ou página própria]"
+    ],
+    "bullets": [
+     "Logística de campo",
+     "Transferência de produtos entre lojas",
+     "Entrega fracionada em pontos de venda",
+     "Coleta de devoluções",
+     "Logística reversa de materiais",
+     "Armazenagem de brindes"
+    ]
+   },
+   {
     "h2": "Execução no PDV com comprovação",
     "paragraphs": [
      "Cada visita gera registro de presença e fotos antes e depois. Você vê loja a loja o que foi feito e o que ficou pendente. [VALIDAR: ferramenta e formato do relatório]",
@@ -862,8 +876,10 @@
      "O promotor instala cada peça no ponto definido e registra com foto. A sinalização de PDV inclui:"
     ],
     "bullets": [
-     "Aplicação de faixas de gôndola e testeiras",
-     "Aplicação de adesivos de chão e wobblers",
+     "Aplicação de faixas de gôndola",
+     "Aplicação de testeiras",
+     "Aplicação de adesivos de chão",
+     "Aplicação de wobblers",
      "Cartazeamento de ofertas",
      "Comunicação visual de PDV",
      "Instalação de telas digitais no PDV e material de PDV digital"
@@ -872,10 +888,15 @@
    {
     "h2": "Criação e produção de materiais, displays e expositores",
     "paragraphs": [
-     "A criação de materiais de PDV e a produção de materiais de PDV, displays e expositores podem ser feitas junto com a instalação. [VALIDAR: se a Turbo Trade cria e produz ou só instala, e se atende quem busca apenas gráfica]",
+     "A criação de materiais de PDV e a produção de materiais de PDV podem ser feitas junto com a instalação. [VALIDAR: se a Turbo Trade cria e produz ou só instala, e se atende quem busca apenas gráfica]",
      "Para projetos de exposição da marca, veja Visual merchandising. Para cartazes de preço, veja Precificação no PDV."
     ],
-    "bullets": []
+    "bullets": [
+     "Criação de displays",
+     "Produção de displays",
+     "Criação de expositores",
+     "Produção de expositores"
+    ]
    }
   ],
   "faq": [
@@ -1523,7 +1544,7 @@
  },
  "/inteligencia-de-mercado/monitoramento-da-concorrencia/": {
   "intro": [
-   "O monitoramento da concorrência mostra o que os concorrentes estão fazendo nas lojas: preço, espaço, promoções, pontos extras e lançamentos. A ideia é saber antes que eles tomem o seu espaço, e não depois que a venda caiu.",
+   "O monitoramento da concorrência no PDV mostra o que os concorrentes estão fazendo nas lojas: preço, espaço, promoções, pontos extras e lançamentos. A ideia é saber antes que eles tomem o seu espaço, e não depois que a venda caiu.",
    "Você recebe registros de campo organizados por rede e região, prontos para o KAM e o gerente de trade reagirem."
   ],
   "sections": [
@@ -1588,7 +1609,7 @@
    {
     "h2": "Dashboards e painel de indicadores",
     "paragraphs": [
-     "Os dados de campo podem ser vistos em dashboards de trade marketing e em um painel de indicadores atualizado conforme as visitas acontecem. [VALIDAR: ferramenta usada e se o painel é em tempo real] Para quem já usa business intelligence para trade, os dados podem ser integrados ao sistema da sua empresa. [VALIDAR: formatos de integração disponíveis]"
+     "Os dados de campo podem ser vistos em dashboards de trade marketing e em um painel de indicadores em tempo real, atualizado conforme as visitas acontecem. [VALIDAR: ferramenta usada e se o painel é em tempo real] Para quem já usa business intelligence para trade marketing, os dados podem ser integrados ao sistema da sua empresa. [VALIDAR: formatos de integração disponíveis]"
     ],
     "bullets": []
    },
@@ -1784,6 +1805,20 @@
     ]
    },
    {
+    "h2": "Para distribuidores, representantes e outras agências",
+    "paragraphs": [
+     "Além da indústria, o trabalho pode atender quem vende ou executa em nome dela. [VALIDAR: confirmar quais destes serviços a Turbo Trade oferece; os que forem oferecidos podem virar seção ou página própria]"
+    ],
+    "bullets": [
+     "Trade marketing para distribuidores",
+     "Merchandising para distribuidores",
+     "Gestão de trade marketing de representantes comerciais",
+     "Apoio de campo para representantes comerciais",
+     "Operação de campo para outras agências",
+     "Cobertura regional para outras agências"
+    ]
+   },
+   {
     "h2": "Assessoria de trade marketing com olhar de campo",
     "paragraphs": [
      "A consultoria parte do que acontece nas lojas, não só da planilha. As recomendações podem ser executadas pela sua equipe, pela sua agência atual ou por nós. Você decide."
@@ -1861,27 +1896,28 @@
   ],
   "sections": [
    {
-    "h2": "Planejamento estratégico e verba de trade",
+    "h2": "Planejamento estratégico de trade marketing e verba",
     "paragraphs": [
-     "Partimos das metas comerciais e do histórico da operação para distribuir a verba de trade por canal, rede e região. O orçamento de trade marketing fica ligado a indicadores que a diretoria pode acompanhar."
+     "O planejamento estratégico de trade marketing parte das metas comerciais e do histórico da operação. No planejamento de verba de trade marketing, distribuímos o investimento por canal, rede e região. O orçamento de trade marketing fica ligado a indicadores que a diretoria pode acompanhar."
     ],
     "bullets": [
      "Estratégia de canais de venda.",
-     "Estratégia de entrada em novas regiões e de expansão nacional.",
-     "Estratégia de sortimento e de preço no ponto de venda por canal."
+     "Estratégia de entrada em novas regiões e estratégia de expansão nacional.",
+     "Estratégia de sortimento por canal.",
+     "Estratégia de preço no ponto de venda."
     ]
    },
    {
     "h2": "Clusterização de lojas e cobertura de PDVs",
     "paragraphs": [
-     "A segmentação de pontos de venda agrupa as lojas por perfil e potencial. Com isso, definimos a priorização de lojas, a frequência de visitas e o desenho de roteiros de atendimento. Lojas diferentes recebem tratamentos diferentes, e o custo acompanha o potencial."
+     "A segmentação de pontos de venda agrupa as lojas por perfil e potencial. É a base do planejamento de cobertura de PDVs: priorização de lojas por potencial, definição de frequência de visitas e desenho de roteiros de atendimento. Lojas diferentes recebem tratamentos diferentes, e o custo acompanha o potencial."
     ],
     "bullets": []
    },
    {
     "h2": "Calendário promocional e ações sazonais",
     "paragraphs": [
-     "O plano inclui o calendário promocional e as ações sazonais do ano, com antecedência para negociar com as redes. Lançamentos têm página própria: veja lançamento de produtos. Se ainda não sabe onde a operação está falhando, comece pelo diagnóstico de trade marketing."
+     "O plano inclui o planejamento de calendário promocional e o planejamento de ações sazonais do ano, com antecedência para negociar com as redes. Lançamentos têm página própria: veja lançamento de produtos. Se ainda não sabe onde a operação está falhando, comece pelo diagnóstico de trade marketing."
     ],
     "bullets": []
    }
@@ -2057,10 +2093,10 @@
     "bullets": []
    },
    {
-    "h2": "Apoio ao KAM e relacionamento com redes",
+    "h2": "Apoio a key account managers e relacionamento com redes",
     "paragraphs": [],
     "bullets": [
-     "Relacionamento com redes varejistas e com compradores.",
+     "Relacionamento com redes varejistas e relacionamento com compradores.",
      "Negociação de espaço com lojas.",
      "Cadastro de produtos em redes e acompanhamento de cadastro de novos itens.",
      "Prevenção de descadastro de produtos, com alerta de itens em risco."
@@ -3078,10 +3114,24 @@
    {
     "h2": "Seu setor não está na lista?",
     "paragraphs": [
-     "Também avaliamos operações de outras categorias vendidas no varejo, como utilidades domésticas, papelaria, eletroportáteis, brinquedos e autopeças. [VALIDAR: quais desses setores a Turbo Trade já atende de fato]",
+     "Também avaliamos operações de outras categorias vendidas no varejo. [VALIDAR: quais desses setores a Turbo Trade já atende de fato]",
      "Conte o seu segmento, os canais e os estados em que você vende. A partir disso dá para dizer se e como a operação faz sentido."
     ],
-    "bullets": []
+    "bullets": [
+     "Trade marketing para hortifrúti",
+     "Trade marketing para produtos naturais",
+     "Trade marketing para suplementos",
+     "Trade marketing para eletroportáteis",
+     "Trade marketing para eletroeletrônicos",
+     "Trade marketing para telefonia",
+     "Trade marketing para utilidades domésticas",
+     "Trade marketing para papelaria",
+     "Trade marketing para brinquedos",
+     "Trade marketing para moda",
+     "Trade marketing para calçados",
+     "Trade marketing para autopeças",
+     "Trade marketing para revendas agropecuárias"
+    ]
    }
   ],
   "faq": [
@@ -3492,6 +3542,16 @@
     ]
    },
    {
+    "h2": "Outros canais em avaliação",
+    "paragraphs": [
+     "Também avaliamos operações em formatos que ainda não têm página própria. [VALIDAR: quais desses canais a Turbo Trade atende de fato]"
+    ],
+    "bullets": [
+     "Merchandising em lojas de conveniência",
+     "Merchandising em lojas de departamento"
+    ]
+   },
+   {
     "h2": "Por que os canais do varejo pedem execução diferente",
     "paragraphs": [
      "Cada canal tem um formato de loja, um jeito de repor, um tipo de acordo comercial e um perfil de consumidor. Isso muda a frequência de visita, o tamanho da equipe e os indicadores que valem a pena medir.",
@@ -3631,7 +3691,8 @@
    {
     "h2": "Exposição em drogarias: o que é diferente",
     "paragraphs": [
-     "Lojas de farmácia são menores, com corredores estreitos e muitos itens de alto valor. Parte dos produtos fica atrás do balcão, e a venda depende do balconista. As regras sanitárias limitam o tipo de material e de abordagem permitido."
+     "Lojas de farmácia são menores, com corredores estreitos e muitos itens de alto valor. Parte dos produtos fica atrás do balcão, e a venda depende do balconista. As regras sanitárias limitam o tipo de material e de abordagem permitido.",
+     "O canal reúne grandes redes nacionais e regionais, como RD Saúde (Droga Raia e Drogasil), DPSP (Drogarias Pacheco e Drogaria São Paulo), Pague Menos, Extrafarma, Panvel, Drogaria São João, Drogaria Araújo, Farmácias Nissei, Drogaria Venancio, Drogal, Drogaria Catarinense e Ultrafarma. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -3681,7 +3742,8 @@
    {
     "h2": "Exposição técnica e vendedor preparado",
     "paragraphs": [
-     "No home center o cliente muitas vezes chega com dúvida e sai com a marca que o vendedor indicou. Um mostruário bem montado e um vendedor que sabe explicar a diferença entre as linhas pesam mais do que a posição na gôndola."
+     "No home center o cliente muitas vezes chega com dúvida e sai com a marca que o vendedor indicou. Um mostruário bem montado e um vendedor que sabe explicar a diferença entre as linhas pesam mais do que a posição na gôndola.",
+     "Entre as redes do canal estão Leroy Merlin, Telhanorte, Obramax, C&C, Cassol Centerlar, Balaroti e Lojas Quero-Quero. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -3732,7 +3794,8 @@
     "h2": "Cobertura eficiente em muitas lojas pequenas",
     "paragraphs": [
      "Em loja pequena não cabe visita diária. O caminho é um roteiro em ciclos, com promotor compartilhado entre marcas não concorrentes, e frequência maior nas lojas que mais vendem.",
-     "Nas redes especializadas, a lógica se aproxima da de supermercado: planograma, espaço negociado e reposição."
+     "Nas redes especializadas, a lógica se aproxima da de supermercado: planograma, espaço negociado e reposição.",
+     "Entre as redes especializadas, as maiores são Petz e Cobasi. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -3860,7 +3923,7 @@
  },
  "/redes-atendidas/merchandising-no-carrefour/": {
   "intro": [
-   "O merchandising no Carrefour envolve lojas de formatos bem diferentes dentro do mesmo grupo: hipermercados, supermercados de bairro e lojas de proximidade. Cada formato pede frequência, tamanho de equipe e tipo de exposição próprios. [VALIDAR: operação real da Turbo Trade nesta rede, lojas e cidades atendidas, equipe e prazos de implantação; revisão jurídica do uso do nome da rede]",
+   "O merchandising no Carrefour envolve lojas de formatos bem diferentes dentro do Grupo Carrefour Brasil, que também reúne o Sam's Club e o Atacadão: hipermercados, supermercados de bairro e lojas de proximidade. Cada formato pede frequência, tamanho de equipe e tipo de exposição próprios. [VALIDAR: operação real da Turbo Trade nesta rede, lojas e cidades atendidas, equipe e prazos de implantação; revisão jurídica do uso do nome da rede]",
    "Esta página é para gerentes de trade e KAMs que vendem para a rede e precisam de execução por loja, respeitando o padrão de cada formato."
   ],
   "sections": [
@@ -3951,7 +4014,7 @@
  },
  "/redes-atendidas/merchandising-no-assai/": {
   "intro": [
-   "O merchandising no Assaí acontece em lojas de atacarejo com perfis variados: unidades construídas para o formato e unidades instaladas em prédios de antigos hipermercados, com layout e circulação diferentes. [VALIDAR: operação real da Turbo Trade nesta rede, lojas e cidades atendidas, equipe e prazos de implantação; revisão jurídica do uso do nome da rede]",
+   "O merchandising no Assaí Atacadista acontece em lojas de atacarejo com perfis variados: unidades construídas para o formato e unidades instaladas em prédios de antigos hipermercados, com layout e circulação diferentes. [VALIDAR: operação real da Turbo Trade nesta rede, lojas e cidades atendidas, equipe e prazos de implantação; revisão jurídica do uso do nome da rede]",
    "Esta página é para gerentes de trade e KAMs que vendem para a rede e precisam de execução consistente em lojas que não são todas iguais."
   ],
   "sections": [
@@ -4148,6 +4211,13 @@
     ]
    },
    {
+    "h2": "Grandes grupos com lojas em várias regiões",
+    "paragraphs": [
+     "Algumas redes têm bandeiras em mais de uma região, o que pede padrão de execução único entre estados. É o caso da Cencosud, com GBarbosa, Bretas, Perini, Prezunic e Giga Atacado, do Mercantil Atacado e do atacado distribuidor Martins. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
+    ],
+    "bullets": []
+   },
+   {
     "h2": "Atendimento no interior: onde a cobertura costuma falhar",
     "paragraphs": [
      "É comum a agência ser forte na capital e fraca no interior e no Norte e Nordeste. O resultado é um padrão de execução diferente em cada região e vários fornecedores para gerenciar.",
@@ -4188,7 +4258,8 @@
     "h2": "O varejo do Nordeste",
     "paragraphs": [
      "O Nordeste tem redes regionais fortes, atacarejo em crescimento acelerado e um pequeno varejo muito relevante nos bairros e no interior. Muitas redes locais conhecem bem o consumidor e dão preferência a quem executa bem na loja.",
-     "Cada estado tem seu próprio mapa de redes. O que funciona em Recife não é, necessariamente, o que funciona em Fortaleza ou em São Luís."
+     "Cada estado tem seu próprio mapa de redes. O que funciona em Recife não é, necessariamente, o que funciona em Fortaleza ou em São Luís.",
+     "Redes relevantes na região incluem Atakarejo, Nordestão e Superpão, além do GBarbosa e do Perini, da Cencosud. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -4283,7 +4354,8 @@
    {
     "h2": "O varejo do Centro-Oeste",
     "paragraphs": [
-     "A região tem perfis bem diferentes. Brasília concentra renda alta e muitas lojas de proximidade. Goiânia, Cuiabá e Campo Grande têm redes regionais fortes e atacarejo em crescimento. No interior, cidades ligadas ao agronegócio ganham lojas novas a cada ano."
+     "A região tem perfis bem diferentes. Brasília concentra renda alta e muitas lojas de proximidade. Goiânia, Cuiabá e Campo Grande têm redes regionais fortes e atacarejo em crescimento. No interior, cidades ligadas ao agronegócio ganham lojas novas a cada ano.",
+     "Redes relevantes na região incluem o Grupo Pereira, com Comper e Fort Atacadista. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -4337,7 +4409,8 @@
    {
     "h2": "Minas Gerais, Rio de Janeiro e Espírito Santo",
     "paragraphs": [
-     "Minas Gerais tem muitos municípios e redes regionais com forte presença no interior, o que pede roteiros longos e bem planejados. O Rio de Janeiro concentra lojas na região metropolitana, com trânsito e restrições de acesso em algumas áreas. O Espírito Santo tem varejo regional relevante e distâncias menores."
+     "Minas Gerais tem muitos municípios e redes regionais com forte presença no interior, o que pede roteiros longos e bem planejados. O Rio de Janeiro concentra lojas na região metropolitana, com trânsito e restrições de acesso em algumas áreas. O Espírito Santo tem varejo regional relevante e distâncias menores.",
+     "Redes relevantes incluem, em São Paulo, Tenda Atacado, Roldão Atacadista, Spani Atacadista, Savegnago, Sonda, Hirota, St Marche, Oba Hortifruti, Enxuto, Covabra, Tauste e Dalben; em Minas Gerais, Mart Minas, DMA Distribuidora, Supermercados Epa, Villefort, Supernosso, Verdemar e Bretas; no Rio de Janeiro, Supermercados Guanabara, Supermercados Mundial, Zona Sul, Hortifruti Natural da Terra, Prezunic e Andorinha Supermercado. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -4374,7 +4447,8 @@
    {
     "h2": "O varejo do Sul",
     "paragraphs": [
-     "Os três estados têm redes regionais bem estabelecidas, muitas com forte presença no interior. Em Santa Catarina, o varejo é espalhado por muitas cidades médias, sem uma capital dominante. No Paraná e no Rio Grande do Sul, capitais e polos regionais concentram parte grande das lojas."
+     "Os três estados têm redes regionais bem estabelecidas, muitas com forte presença no interior. Em Santa Catarina, o varejo é espalhado por muitas cidades médias, sem uma capital dominante. No Paraná e no Rio Grande do Sul, capitais e polos regionais concentram parte grande das lojas.",
+     "Redes relevantes incluem Angeloni, Giassi, Bistek, Grupo Koch e Komprão Koch Atacadista em Santa Catarina; Condor, Festval, Grupo Muffato e Max Atacadista no Paraná; Zaffari e Bourbon no Rio Grande do Sul. [VALIDAR: citar somente as redes em que a Turbo Trade tem operação real]"
     ],
     "bullets": []
    },
@@ -4747,7 +4821,8 @@
     "h2": "Alertas de ruptura e integração com sistemas do cliente",
     "paragraphs": [
      "Alertas de ruptura avisam quando o produto falta na gôndola, para agir antes que a venda seja perdida. Segundo a Neogrid, a ruptura nas gôndolas ficou em 10,8% em julho de 2026.",
-     "A integração com sistemas do cliente leva os dados para o BI ou a planilha que você já usa. [VALIDAR: integrações disponíveis]"
+     "A integração com sistemas do cliente leva os dados para o BI ou a planilha que você já usa. [VALIDAR: integrações disponíveis]",
+     "O mercado tem plataformas de gestão de campo e de dados de varejo como Involves, uMov.me, Neogrid, NielsenIQ, Kantar e Scanntech. [VALIDAR: citar somente as ferramentas que a Turbo Trade usa ou integra]"
     ],
     "bullets": []
    }
@@ -5407,6 +5482,13 @@
     "paragraphs": [
      "Indústrias e marcas de alimentos, bebidas, higiene e beleza, limpeza, pet e farma que vendem em supermercados, atacarejos, farmácias e redes regionais. O serviço é para marcas e indústrias, não para lojas que buscam funcionário. [VALIDAR: segmentos atendidos]",
      "O método está descrito na página Como trabalhamos, e os resultados em Cases de trade marketing."
+    ],
+    "bullets": []
+   },
+   {
+    "h2": "Associações e eventos",
+    "paragraphs": [
+     "Associações e eventos do setor ligados ao varejo e ao trade marketing: ABRAS, APAS, Abrafarma, ABAD, POPAI Brasil, SA+ Trade, Trade Connection, APAS Show, Smart Market ABRAS, NRF Retail's Big Show, Trade Marketing Summit e Involves Club. [VALIDAR: manter somente as entidades de que a Turbo Trade é associada, participa ou patrocina]"
     ],
     "bullets": []
    },
@@ -6583,7 +6665,7 @@
  },
  "/blog/credenciamento-de-promotores/": {
   "intro": [
-   "O credenciamento de promotores é o processo pelo qual a rede varejista autoriza um promotor a trabalhar dentro das suas lojas em nome de uma indústria. A rede confere a documentação do promotor e da empresa que o contrata, faz o cadastro e, em muitos casos, exige integração ou treinamento antes do primeiro acesso.",
+   "O credenciamento de promotores em redes varejistas é o processo pelo qual a rede autoriza um promotor a trabalhar dentro das suas lojas em nome de uma indústria. A rede confere a documentação do promotor e da empresa que o contrata, faz o cadastro e, em muitos casos, exige integração ou treinamento antes do primeiro acesso.",
    "Cada rede tem regras próprias, e os requisitos podem mudar. Por isso, o credenciamento precisa entrar no cronograma de qualquer operação nova, principalmente em lançamentos e na entrada em novas redes."
   ],
   "sections": [
